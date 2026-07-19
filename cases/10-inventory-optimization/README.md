@@ -1,10 +1,9 @@
-# Optimizing Inventory Through Process Transformation
+﻿# Optimizing Inventory Through Process Transformation
 
 **Capability:** Supply Chain  
 **Portfolio:** The Transformation Lab  
 **Author:** Gabriele Miranda
 
-> This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.
 
 ## 1. Executive Summary
 
@@ -53,7 +52,7 @@ The assessment would combine:
 
 ## 6. Transformation Roadmap
 
-### Phase 1 — Diagnose and Stabilize | 0–30 Days
+### Phase 1 â€” Diagnose and Stabilize | 0â€“30 Days
 
 - Confirm baseline, scope, and value at stake
 - Establish governance and decision rights
@@ -61,7 +60,7 @@ The assessment would combine:
 - Select priority workstreams
 - Align leaders around a single transformation narrative
 
-### Phase 2 — Redesign and Pilot | 31–90 Days
+### Phase 2 â€” Redesign and Pilot | 31â€“90 Days
 
 - Redesign priority processes and management routines
 - Pilot future-state solutions
@@ -69,7 +68,7 @@ The assessment would combine:
 - Train leaders and process owners
 - Validate operational and financial impact
 
-### Phase 3 — Scale and Embed | 3–12 Months
+### Phase 3 â€” Scale and Embed | 3â€“12 Months
 
 - Scale proven practices
 - Integrate standards into daily management
@@ -97,7 +96,7 @@ The assessment would combine:
 
 ## 8. KPI Framework
 
-- Inventory reduction of 15–25%
+- Inventory reduction of 15â€“25%
 - Service level maintained or improved
 - Obsolescence reduction
 - Higher inventory turns

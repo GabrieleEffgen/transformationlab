@@ -1,8 +1,9 @@
-# Building an Enterprise Performance Management System
+﻿# Building an Enterprise Performance Management System
 
 **Capability:** Performance Governance  
 **Portfolio:** The Transformation Lab  
 **Author:** Gabriele Miranda
+
 
 ## 1. Executive Summary
 
@@ -36,7 +37,7 @@ The assessment would combine:
 
 ## 4. Key Hypotheses
 
-1. A significant share of the performance gap is caused by management-system weaknesses rather than isolated technical issues. It is clear that the indicators have no conecction to frontline stakeholders challenges.
+1. A significant share of the performance gap is caused by management-system weaknesses rather than isolated technical issues.
 2. The organization lacks one reliable view of priorities, performance, and ownership.
 3. Local improvements will not sustain without governance, capability building, and leadership routines.
 4. The transformation should be sequenced to stabilize, improve, and then scale.
@@ -51,7 +52,7 @@ The assessment would combine:
 
 ## 6. Transformation Roadmap
 
-### Phase 1 — Diagnose and Stabilize | 0–30 Days
+### Phase 1 â€” Diagnose and Stabilize | 0â€“30 Days
 
 - Confirm baseline, scope, and value at stake
 - Establish governance and decision rights
@@ -59,7 +60,7 @@ The assessment would combine:
 - Select priority workstreams
 - Align leaders around a single transformation narrative
 
-### Phase 2 — Redesign and Pilot | 31–90 Days
+### Phase 2 â€” Redesign and Pilot | 31â€“90 Days
 
 - Redesign priority processes and management routines
 - Pilot future-state solutions
@@ -67,7 +68,7 @@ The assessment would combine:
 - Train leaders and process owners
 - Validate operational and financial impact
 
-### Phase 3 — Scale and Embed | 3–12 Months
+### Phase 3 â€” Scale and Embed | 3â€“12 Months
 
 - Scale proven practices
 - Integrate standards into daily management
@@ -114,14 +115,9 @@ KPIs should include clear definitions, owners, data sources, targets, thresholds
 | Employee resistance | Involve users in design and provide role-based support |
 | Operational disruption | Pilot changes and use readiness gates before scaling |
 
-## 10. Business Impact and results
+## 10. Expected Business Impact
 
-The transformation improved 
-- 100% KPI definition governance getting the operational control working.
-- Reporting effort reduced by 100%, one it became automatic.
-- Decision cycle shortened and closer to the problems
-- Action closure above 90%, simplifying what was done.
-- Benefits linked to strategic objectives, making capability of plant increase 10%. 
+The transformation is expected to improve operational control, decision speed, accountability, workforce capability, customer outcomes, and financial performance. Final benefits would be validated jointly by operations and finance.
 
 ## 11. Executive Takeaway
 

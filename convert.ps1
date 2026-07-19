@@ -7,13 +7,11 @@ function Convert-MarkdownToHtml {
   # === Extract metadata from first lines ===
   $title = ""
   $capability = ""
-  $disclaimer = ""
 
   for ($i = 0; $i -lt 10 -and $i -lt $lines.Length; $i++) {
     $line = $lines[$i]
     if ($line -match '^# (.+)$') { $title = $matches[1] }
     elseif ($line -match '^\*\*Capability:\*\*\s*(.+)$') { $capability = $matches[1] }
-    elseif ($line -match '^> (.+)$') { $disclaimer = $matches[1] }
   }
 
   # === Find section boundaries ===
@@ -269,7 +267,6 @@ document.getElementById('mobile-toggle').addEventListener('click',function(){doc
 <h1 data-i18n="case${caseNumber}-title">$title</h1>
 <p class="lead" data-i18n="case${caseNumber}-lead">An executive business case structured around diagnosis, transformation strategy, implementation, governance, and value realization.</p>
 $heroMetrics
-<div class="disclaimer" data-i18n="case${caseNumber}-disc"><strong>Disclaimer:</strong> $disclaimer</div>
 </header>
 $sectionHtml
 <div class="back-wrap">

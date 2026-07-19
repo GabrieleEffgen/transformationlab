@@ -1,12 +1,13 @@
-# Operational Turnaround: Recovering a Plant Operating at 18% Losses
+﻿# Operational Turnaround: Recovering a Plant Operating at 18% Losses
 
 **Capability:** Operational Excellence  
 **Portfolio:** The Transformation Lab  
 **Author:** Gabriele Miranda
 
+
 ## 1. Executive Summary
 
-A manufacturing department is operating with 18% productivity losses, unstable output, frequent schedule changes, and low confidence in operational data. Leadership needs a recovery plan that produces results within 90 days without compromising safety or quality.
+A manufacturing site is operating with 18% productivity losses, unstable output, frequent schedule changes, and low confidence in operational data. Leadership needs a recovery plan that produces results within 90 days without compromising safety or quality.
 
 The recommended approach combines strategic prioritization, process redesign, governance, data discipline, leadership alignment, and change management. The objective is not only to improve short-term performance, but to create a management system capable of sustaining results.
 
@@ -24,12 +25,12 @@ The organization must address the immediate performance gap while protecting saf
 
 ## 3. Diagnostic Approach
 
-The assessment combine:
+The assessment would combine:
 
-- Executive and frontline stakeholder interviews to understand actual status
-- Process and value-stream mapping to better know the process
-- KPI and data-quality review 
-- Root-cause analysis of the main gaps found
+- Executive and frontline stakeholder interviews
+- Process and value-stream mapping
+- KPI and data-quality review
+- Root-cause analysis
 - Capability and governance assessment
 - Financial value-leakage analysis
 - Risk and change-readiness evaluation
@@ -44,14 +45,14 @@ The assessment combine:
 ## 5. Recommended Transformation
 
 - Create one loss taxonomy and daily performance baseline
-- Stabilize the production plan and critical resources based to prioritarie demmands
+- Stabilize the production plan and critical resources
 - Launch tiered daily management
 - Prioritize the three largest loss families
 - Build supervisor capability in structured problem solving
 
 ## 6. Transformation Roadmap
 
-### Phase 1 — Diagnose and Stabilize | 0–30 Days
+### Phase 1 â€” Diagnose and Stabilize | 0â€“30 Days
 
 - Confirm baseline, scope, and value at stake
 - Establish governance and decision rights
@@ -59,15 +60,15 @@ The assessment combine:
 - Select priority workstreams
 - Align leaders around a single transformation narrative
 
-### Phase 2 — Redesign and Pilot | 31–60 Days
+### Phase 2 â€” Redesign and Pilot | 31â€“90 Days
 
 - Redesign priority processes and management routines
 - Pilot future-state solutions
 - Build dashboards and action-management standards
-- Train leaders and process owners to guarantee the work stabilished
+- Train leaders and process owners
 - Validate operational and financial impact
 
-### Phase 3 — Scale and Embed | 2–12 Months
+### Phase 3 â€” Scale and Embed | 3â€“12 Months
 
 - Scale proven practices
 - Integrate standards into daily management
@@ -97,7 +98,7 @@ The assessment combine:
 
 - Loss rate below 8% in 90 days
 - Schedule adherence above 90%
-- OEE improvement of 8–12 points
+- OEE improvement of 8â€“12 points
 - 30% reduction in unplanned downtime
 - Weekly verified financial impact
 
@@ -114,16 +115,9 @@ KPIs should include clear definitions, owners, data sources, targets, thresholds
 | Employee resistance | Involve users in design and provide role-based support |
 | Operational disruption | Pilot changes and use readiness gates before scaling |
 
-## 10. Business Impact and results 
+## 10. Expected Business Impact
 
-The transformation improved: 
-- Operational control and also decision speed by knowing its bottle kneck
-- Accountability, workforce capability and team work performance by creating and individual goal to the employees
-- Loss rate below 15% in 30 days
-- Schedule adherence above 90%
-- OEE improvement of 15 points
-- 30% reduction in unplanned downtime
-- Weekly verified financial impact, which gave a R$500K return. 
+The transformation is expected to improve operational control, decision speed, accountability, workforce capability, customer outcomes, and financial performance. Final benefits would be validated jointly by operations and finance.
 
 ## 11. Executive Takeaway
 

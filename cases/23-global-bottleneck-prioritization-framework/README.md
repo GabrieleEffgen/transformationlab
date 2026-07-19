@@ -1,10 +1,9 @@
-# Global Bottleneck Prioritization Framework
+﻿# Global Bottleneck Prioritization Framework
 
 **Capability:** Operational Excellence  
 **Portfolio:** The Transformation Lab  
 **Author:** Gabriele Miranda
 
-> This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.
 
 ## 1. Executive Summary
 
@@ -28,15 +27,15 @@ Although operational data existed, the organization lacked a standardized method
 
 The strategy was built on five pillars:
 
-**Process Mapping** — Complete end-to-end mapping of the manufacturing flow to understand the current-state value stream and identify all potential constraint points.
+**Process Mapping** â€” Complete end-to-end mapping of the manufacturing flow to understand the current-state value stream and identify all potential constraint points.
 
-**Critical Point Identification** — Systematic analysis to locate the specific constraints reducing nominal production capacity, using operational data and direct observation.
+**Critical Point Identification** â€” Systematic analysis to locate the specific constraints reducing nominal production capacity, using operational data and direct observation.
 
-**Business Prioritization** — Each identified bottleneck was scored by business impact, creating a clear ranking that directed resources to the highest-value constraints first.
+**Business Prioritization** â€” Each identified bottleneck was scored by business impact, creating a clear ranking that directed resources to the highest-value constraints first.
 
-**Action Roadmap** — Initiatives were separated into short-, medium- and long-term horizons, allowing quick wins to build momentum while structural solutions were developed.
+**Action Roadmap** â€” Initiatives were separated into short-, medium- and long-term horizons, allowing quick wins to build momentum while structural solutions were developed.
 
-**Digital Integration** — The framework was embedded into the End-to-End Digital Factory platform, enabling real-time tracking of bottleneck status, action execution and impact measurement.
+**Digital Integration** â€” The framework was embedded into the End-to-End Digital Factory platform, enabling real-time tracking of bottleneck status, action execution and impact measurement.
 
 ## 5. Framework Applied
 
@@ -59,19 +58,19 @@ The strategy was built on five pillars:
 
 ## 6. Execution Timeline
 
-**Phase 1 — Diagnosis and Framework Design (Weeks 1–3):**
+**Phase 1 â€” Diagnosis and Framework Design (Weeks 1â€“3):**
 - Complete process mapping of the manufacturing value stream
 - Critical point identification and bottleneck candidate listing
 - Business impact scoring and prioritization
 - Governance model definition and meeting structure design
 
-**Phase 2 — Pilot Execution (Weeks 4–8):**
+**Phase 2 â€” Pilot Execution (Weeks 4â€“8):**
 - Launch of weekly Scrum-based bottleneck resolution meetings
 - Deployment of digital monitoring dashboard
 - Resolution of top-3 priority bottlenecks
 - Documentation of results and lessons learned
 
-**Phase 3 — Standardization and Scale (Weeks 9–12):**
+**Phase 3 â€” Standardization and Scale (Weeks 9â€“12):**
 - Framework documentation and standard operating procedure creation
 - Training materials development for site replication
 - Presentation to European and US manufacturing sites
@@ -110,6 +109,6 @@ Improvement initiatives generate greater impact when organizations stop treating
 
 ## 11. Related Cases
 
-- Case 05 — Multi-Site Variability Reduction
-- Case 08 — Continuous Improvement System
-- Case 22 — End-to-End Digital Factory Operating System
+- Case 05 â€” Multi-Site Variability Reduction
+- Case 08 â€” Continuous Improvement System
+- Case 22 â€” End-to-End Digital Factory Operating System
