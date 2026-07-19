@@ -290,22 +290,22 @@ const i18n = {
 
     // TIMELINE
     'tl1-head': { en: 'Operations Manager', pt: 'Gerente de Operações' },
-    'tl1-sub': { en: '2024 – Present · Gerdau', pt: '2024 – Presente · Gerdau' },
+    'tl1-sub': { en: '2024 – Present · Michelin', pt: '2024 – Presente · Michelin' },
     'tl1-body': { en: 'Strategic leadership of industrial operations, driving transformation initiatives focused on operational excellence, performance management, and business value generation.', pt: 'Liderança estratégica de operações industriais, conduzindo iniciativas de transformação focadas em excelência operacional, gestão de performance e geração de valor de negócio.' },
     'tl2-head': { en: 'Regional Continuous Improvement Specialist', pt: 'Especialista Regional em Melhoria Contínua' },
     'tl2-sub': { en: '2023 – 2024 · Knauf', pt: '2023 – 2024 · Knauf' },
     'tl2-body': { en: 'Corporate role leading Business Transformation and Operational Excellence across business units — process architecture, digitalization, and continuous improvement.', pt: 'Função corporativa liderando Business Transformation e Excelência Operacional entre unidades de negócio — arquitetura de processos, digitalização e melhoria contínua.' },
     'tl3-head': { en: 'Production & Maintenance Coordinator', pt: 'Coordenadora de Produção e Manutenção' },
-    'tl3-sub': { en: '2022 – 2023 · Moove', pt: '2022 – 2023 · Moove' },
+    'tl3-sub': { en: '2022 – 2023 · Gerdau', pt: '2022 – 2023 · Gerdau' },
     'tl3-body': { en: 'Managed production operations, team development, and operational discipline in a high-complexity industrial environment.', pt: 'Gerenciei operações de produção, desenvolvimento de equipe e disciplina operacional em ambiente industrial de alta complexidade.' },
     'tl4-head': { en: 'Production Supervisor', pt: 'Supervisora de Produção' },
     'tl4-sub': { en: '2021 – 2022 · Moove', pt: '2021 – 2022 · Moove' },
     'tl4-body': { en: 'Led complete restructuring of a production process using VOC and Design Thinking, increasing capacity by 130%.', pt: 'Liderei a reestruturação completa de um processo produtivo usando VOC e Design Thinking, aumentando a capacidade em 130%.' },
     'tl5-head': { en: 'Continuous Improvement Analyst', pt: 'Analista de Melhoria Contínua' },
-    'tl5-sub': { en: '2018 – 2021 · Michelin', pt: '2018 – 2021 · Michelin' },
+    'tl5-sub': { en: '2018 – 2021 · Moove', pt: '2018 – 2021 · Moove' },
     'tl5-body': { en: 'Led continuous improvement projects using Lean Manufacturing, VOC, and Design Thinking for waste elimination and efficiency increase.', pt: 'Liderei projetos de melhoria contínua usando Lean Manufacturing, VOC e Design Thinking para eliminação de desperdícios e aumento de eficiência.' },
     'tl6-head': { en: 'Trainee → Process Engineer', pt: 'Trainee → Engenheira de Processos' },
-    'tl6-sub': { en: '2017 – 2018 · Michelin', pt: '2017 – 2018 · Michelin' },
+    'tl6-sub': { en: '2017 – 2018 · Moove', pt: '2017 – 2018 · Moove' },
     'tl6-body': { en: 'Started industrial career in one of the world\'s largest tire manufacturers, building foundational expertise in process engineering and operational excellence.', pt: 'Iniciei a carreira industrial em um dos maiores fabricantes de pneus do mundo, construindo expertise fundamental em engenharia de processos e excelência operacional.' },
 
     // EDUCATION & CERTIFICATIONS
