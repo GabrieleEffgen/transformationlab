@@ -249,6 +249,7 @@ function Convert-MarkdownToHtml {
 <div class="nav">
 <a class="brand" href="../../index.html">THE <span>TRANSFORMATION LAB</span></a>
 <a href="../../about.html">About</a>
+<a href="mailto:gabrieleufruralrj@gmail.com" class="nav-contact">Contact</a>
 </div>
 </nav>
 <div class="case-layout">
@@ -264,7 +265,13 @@ $sectionHtml
 <a class="btn" href="../../index.html">&larr; Back to all cases</a>
 </div>
 </div>
-<footer class="footer">The Transformation Lab &copy; Gabriele Miranda</footer>
+<footer class="footer">
+<span>&copy; 2026 Gabriele Miranda</span>
+<span class="footer-links">
+<a href="mailto:gabrieleufruralrj@gmail.com">Email</a>
+<a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">LinkedIn</a>
+</span>
+</footer>
 </body>
 </html>
 "@
