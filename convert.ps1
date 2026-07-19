@@ -197,7 +197,7 @@ function Convert-MarkdownToHtml {
       "7"  { $secTitle = "Governance Model" }
       "8"  { $secTitle = "KPI Framework" }
       "9"  { $secTitle = "Risks and Mitigations" }
-      "10" { $secTitle = "Expected Business Impact" }
+      "10" { $secTitle = "Business Impacts and Results" }
       "11" { $secTitle = "Executive Takeaway" }
     }
 
