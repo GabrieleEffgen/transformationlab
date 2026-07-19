@@ -266,11 +266,13 @@ $sectionHtml
 </div>
 </div>
 <footer class="footer">
+<div class="footer-left">
 <span>&copy; 2026 Gabriele Miranda</span>
-<span class="footer-links">
-<a href="mailto:gabrieleufruralrj@gmail.com">Email</a>
-<a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">LinkedIn</a>
-</span>
+</div>
+<div class="footer-right">
+<a href="mailto:gabrieleufruralrj@gmail.com">gabrieleufruralrj@gmail.com</a>
+<a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">linkedin.com/in/gabrielemiranda</a>
+</div>
 </footer>
 </body>
 </html>
