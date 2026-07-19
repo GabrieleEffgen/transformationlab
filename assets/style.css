@@ -104,8 +104,45 @@ nav {
 }
 
 .hero {
-  padding-top: 110px;
+  padding-top: 90px;
   padding-bottom: 60px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--line);
+  display: block;
+}
+
+.hero-text .lead {
+  max-width: 620px;
+}
+
+@media (max-width: 700px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+  }
+  .hero-image {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .hero-text .lead {
+    max-width: 100%;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
 }
 
 .section {
