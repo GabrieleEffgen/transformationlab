@@ -114,7 +114,7 @@ KPIs should include clear definitions, owners, data sources, targets, thresholds
 | Employee resistance | Involve users in design and provide role-based support |
 | Operational disruption | Pilot changes and use readiness gates before scaling |
 
-## 10. Expected Business Impact and results 
+## 10. Business Impact and results 
 
 The transformation improved: 
 - Operational control and also decision speed by knowing its bottle kneck
