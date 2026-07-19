@@ -9,11 +9,19 @@
 </head>
 <body>
 <nav>
-<div class="nav">
-<a class="brand" href="../../index.html">THE <span>TRANSFORMATION LAB</span></a>
-<a href="../../about.html">About</a>
-<a href="mailto:gabrieleufruralrj@gmail.com" class="nav-contact">Contact</a>
-</div>
+  <div class="nav">
+    <a class="brand" href="../../index.html">THE <span>TRANSFORMATION LAB</span></a>
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">&#9776;</button>
+    <div class="nav-links" id="nav-links">
+      <a href="../../index.html">HOME</a>
+      <a href="../../capabilities.html">CAPABILITIES</a>
+      <a href="../../case-studies.html">CASE STUDIES</a>
+      <a href="../../frameworks.html">FRAMEWORKS</a>
+      <a href="../../insights.html">INSIGHTS</a>
+      <a href="../../about.html">ABOUT</a>
+      <a href="../../contact.html" class="nav-cta">CONTACT</a>
+    </div>
+  </div>
 </nav>
 <div class="case-layout">
 <header class="casehero">
@@ -167,5 +175,11 @@
 <a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">linkedin.com/in/gabrielemiranda</a>
 </div>
 </footer>
+
+<script>
+document.getElementById('mobile-toggle').addEventListener('click', function() {
+  document.getElementById('nav-links').classList.toggle('open');
+});
+</script>
 </body>
 </html>

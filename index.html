@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The Transformation Lab — Gabriele Miranda</title>
+  <title>THE TRANSFORMATION LAB — Gabriele Miranda</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -11,187 +11,253 @@
 <nav>
   <div class="nav">
     <a class="brand" href="index.html" data-i18n="nav-brand">THE <span>TRANSFORMATION LAB</span></a>
-    <a href="#portfolio" data-i18n="nav-portfolio">Portfolio</a>
-    <a href="curriculo.html" data-i18n="nav-resume">Resume</a>
-    <a href="mailto:gabrieleufruralrj@gmail.com" class="nav-contact" data-i18n="nav-contact">Contact</a>
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">&#9776;</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html" class="active" data-i18n="nav-home">HOME</a>
+      <a href="capabilities.html" data-i18n="nav-capabilities">CAPABILITIES</a>
+      <a href="case-studies.html" data-i18n="nav-cases">CASE STUDIES</a>
+      <a href="frameworks.html" data-i18n="nav-frameworks">FRAMEWORKS</a>
+      <a href="insights.html" data-i18n="nav-insights">INSIGHTS</a>
+      <a href="about.html" data-i18n="nav-about">ABOUT</a>
+      <a href="contact.html" class="nav-cta" data-i18n="nav-contact">CONTACT</a>
+    </div>
   </div>
 </nav>
 
 <header class="hero">
-  <div class="hero-grid">
-    <div class="hero-image">
-      <img src="assets/foto.png" alt="Gabriele Miranda">
+  <div class="hero-content">
+    <p class="hero-subtitle" data-i18n="hero-title-line">Business Transformation Leader</p>
+    <h1 data-i18n="hero-title">Gabriele <span>Miranda</span></h1>
+    <div class="hero-tags">
+      <span class="hero-tag" data-i18n="tag-opex">Operational Excellence</span>
+      <span class="hero-tag" data-i18n="tag-digital">Digital Transformation</span>
+      <span class="hero-tag" data-i18n="tag-ci">Continuous Improvement</span>
+      <span class="hero-tag" data-i18n="tag-product">Product Strategy</span>
     </div>
-    <div class="hero-text">
-      <h1 data-i18n="hero-title">Gabriele <span class="gold">Miranda</span></h1>
-      <p class="hero-title-line" data-i18n="hero-title-line">Business Transformation Leader</p>
-      <p class="lead hero-lead" data-i18n="hero-lead">Turning complex operations into scalable, high-performing systems through Operational Excellence, Digital Transformation, and Continuous Improvement.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#portfolio" data-i18n="hero-btn-portfolio">Explore Case Studies →</a>
-        <a class="btn-outline" href="curriculo.html" data-i18n="hero-btn-resume">Download Executive Resume →</a>
-      </div>
+    <p class="hero-lead" data-i18n="hero-lead">Transforming complex operations into scalable, high-performing business systems.</p>
+    <div class="hero-actions">
+      <a class="btn" href="case-studies.html" data-i18n="hero-btn-portfolio">Explore Case Studies →</a>
+      <a class="btn-outline" href="curriculo.html" data-i18n="hero-btn-resume">Download Executive Resume →</a>
     </div>
   </div>
 </header>
 
-<section class="section">
-  <div class="about-summary">
-    <p class="lead" data-i18n="about-p1">Throughout my career, I discovered that a company's competitive advantage lies not only in its processes, but in the ability to transform strategy into execution through people. My work goes beyond leading continuous improvement projects: I structure management systems, lead organizational transformation programs, strengthen process governance, and develop teams capable of sustaining long-term results.</p>
-    <p class="lead" style="margin-top:20px;" data-i18n="about-p2">Key results include reducing operational inefficiency from <strong>12% to 2%</strong> at Michelin, increasing operational capacity by <strong>130%</strong> at Moove, and reducing industrial scrap by <strong>50%</strong> at Knauf.</p>
-    <div class="expertise-tags">
-      <span class="expertise-tag" data-i18n="tag-opex">Operational Excellence</span>
-      <span class="expertise-tag" data-i18n="tag-ci">Continuous Improvement</span>
-      <span class="expertise-tag" data-i18n="tag-lss">Lean Six Sigma</span>
-      <span class="expertise-tag" data-i18n="tag-digital">Digital Transformation</span>
-      <span class="expertise-tag" data-i18n="tag-cm">Change Management</span>
-      <span class="expertise-tag" data-i18n="tag-kpi">KPI Governance</span>
-      <span class="expertise-tag" data-i18n="tag-bpm">Process Redesign</span>
-      <span class="expertise-tag" data-i18n="tag-people">People Development</span>
-    </div>
-    <a class="btn" href="curriculo.html" style="margin-top:24px;" data-i18n="about-btn-resume">Full resume →</a>
+<section class="section" id="impact">
+  <div class="section-header">
+    <div class="label" data-i18n="impact-label">Executive Impact</div>
+    <h2 data-i18n="impact-title">Track Record by the Numbers</h2>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value"><span class="num counter" data-target="10">0</span>+</div><div class="stat-label" data-i18n="stat1">Years Leading Transformation</div></div>
+    <div class="stat-card"><div class="stat-value"><span class="num counter" data-target="50">0</span>+</div><div class="stat-label" data-i18n="stat2">Projects Delivered</div></div>
+    <div class="stat-card"><div class="stat-value"><span class="num counter" data-target="200">0</span>+</div><div class="stat-label" data-i18n="stat3">Teams Led</div></div>
+    <div class="stat-card"><div class="stat-value">R$ <span class="num counter" data-target="50">0</span>M+</div><div class="stat-label" data-i18n="stat4">Business Value Generated</div></div>
+    <div class="stat-card"><div class="stat-value"><span class="num counter" data-target="30">0</span>+</div><div class="stat-label" data-i18n="stat5">Operational Improvements</div></div>
+    <div class="stat-card"><div class="stat-value"><span class="num counter" data-target="6">0</span></div><div class="stat-label" data-i18n="stat6">Industries</div></div>
   </div>
 </section>
 
-<section class="section">
-  <div class="feature">
+<section class="section" id="capabilities">
+  <div class="section-header">
+    <div class="label" data-i18n="cap-label">Core Capabilities</div>
+    <h2 data-i18n="cap-title">What I Deliver</h2>
+    <p data-i18n="cap-desc">Each capability represents a distinct discipline I apply to solve complex operational and strategic challenges.</p>
+  </div>
+  <div class="cap-grid">
+    <a href="capabilities.html#opex" class="cap-card">
+      <div class="cap-num">Capability 01</div>
+      <h3 data-i18n="cap1-title">Operational Excellence</h3>
+      <p data-i18n="cap1-desc">Improving operational performance through Lean, process redesign, governance and performance management.</p>
+      <div class="cap-cases">
+        <span class="cap-case">Case 01</span>
+        <span class="cap-case">Case 02</span>
+        <span class="cap-case">Case 04</span>
+        <span class="cap-case">Case 07</span>
+        <span class="cap-case">Case 09</span>
+        <span class="cap-case">Case 15</span>
+      </div>
+    </a>
+    <a href="capabilities.html#biztrans" class="cap-card">
+      <div class="cap-num">Capability 02</div>
+      <h3 data-i18n="cap2-title">Business Transformation</h3>
+      <p data-i18n="cap2-desc">Leading large-scale transformation initiatives involving people, processes, governance and strategic execution.</p>
+      <div class="cap-cases">
+        <span class="cap-case">Case 03</span>
+        <span class="cap-case">Case 05</span>
+        <span class="cap-case">Case 08</span>
+        <span class="cap-case">Case 12</span>
+        <span class="cap-case">Case 16</span>
+        <span class="cap-case">Case 20</span>
+      </div>
+    </a>
+    <a href="capabilities.html#ci" class="cap-card">
+      <div class="cap-num">Capability 03</div>
+      <h3 data-i18n="cap3-title">Continuous Improvement</h3>
+      <p data-i18n="cap3-desc">Creating sustainable improvement systems through structured problem solving and operational excellence.</p>
+      <div class="cap-cases">
+        <span class="cap-case">Case 01</span>
+        <span class="cap-case">Case 04</span>
+        <span class="cap-case">Case 06</span>
+        <span class="cap-case">Case 10</span>
+        <span class="cap-case">Case 14</span>
+        <span class="cap-case">Case 18</span>
+      </div>
+    </a>
+    <a href="capabilities.html#leadership" class="cap-card">
+      <div class="cap-num">Capability 04</div>
+      <h3 data-i18n="cap4-title">Leadership & Change</h3>
+      <p data-i18n="cap4-desc">Developing people, building engagement and sustaining change through complex transformations.</p>
+      <div class="cap-cases">
+        <span class="cap-case">Case 11</span>
+        <span class="cap-case">Case 13</span>
+        <span class="cap-case">Case 17</span>
+        <span class="cap-case">Case 19</span>
+      </div>
+    </a>
+    <a href="capabilities.html#digital" class="cap-card">
+      <div class="cap-num">Capability 05</div>
+      <h3 data-i18n="cap5-title">Digital Transformation</h3>
+      <p data-i18n="cap5-desc">Applying business transformation principles to digital products, technology and innovation.</p>
+      <div class="cap-cases">
+        <span class="cap-case">Case 21</span>
+      </div>
+    </a>
+    <a href="capabilities.html#product" class="cap-card">
+      <div class="cap-num">Capability 06</div>
+      <h3 data-i18n="cap6-title">Product Strategy</h3>
+      <p data-i18n="cap6-desc">Applying operational thinking to create, validate and continuously improve digital products.</p>
+      <div class="cap-cases">
+        <span class="cap-case">Case 21</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="section-sm" id="featured">
+  <div class="featured-grid">
     <div>
-      <div class="eyebrow" data-i18n="featured-eyebrow">Featured real-world case</div>
-      <h2 data-i18n="featured-title">Product Availability Transformation</h2>
-      <p class="lead" data-i18n="featured-desc">Cross-functional transformation reducing product unavailability from 12% to 2% in approximately two months.</p>
-      <a class="btn" href="cases/01-product-availability-transformation/index.html" data-i18n="featured-btn">Explore the case →</a>
+      <div class="label" data-i18n="featured-label">Featured Transformation</div>
+      <h2 style="font-size:1.4rem;font-weight:700;margin:6px 0 12px;" data-i18n="featured-title">Product Availability Transformation</h2>
+      <p style="font-size:0.9rem;color:var(--text-secondary);line-height:1.6;margin-bottom:16px;" data-i18n="featured-desc">Cross-functional transformation reducing product unavailability from 12% to 2% in approximately two months.</p>
+      <a class="btn" href="cases/01-product-availability-transformation/index.html" data-i18n="featured-btn">Read Case →</a>
     </div>
-    <div class="metrics">
+    <div class="featured-metrics">
       <div class="metric"><strong>12% → 2%</strong> <span data-i18n="metric-unav">Unavailability</span></div>
       <div class="metric"><strong>83%</strong> <span data-i18n="metric-red">Relative reduction</span></div>
-      <div class="metric"><strong>≈ BRL 8M</strong> <span data-i18n="metric-value">Identified value opportunity</span></div>
+      <div class="metric"><strong>≈ BRL 8M</strong> <span data-i18n="metric-value">Identified value</span></div>
       <div class="metric"><strong>~2 months</strong> <span data-i18n="metric-time">Delivery period</span></div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="eyebrow" data-i18n="method-eyebrow">Executive Method</div>
-  <h2 data-i18n="method-title">Discover. Diagnose. Prioritize.<br>Design. Deliver. Sustain.</h2>
-</section>
-
-<section class="section logos-section">
-  <div class="eyebrow" data-i18n="logos-eyebrow">Experience Across</div>
-  <h2 data-i18n="logos-title">Trusted by Industry Leaders</h2>
-  <div class="logo-grid">
-    <span class="logo-item">Michelin</span>
-    <span class="logo-item">Knauf</span>
-    <span class="logo-item">Moove</span>
-    <span class="logo-item">ExxonMobil</span>
-    <span class="logo-item">Gerdau</span>
-    <span class="logo-item">ArrMaz</span>
+<section class="section" id="portfolio">
+  <div class="section-header">
+    <div class="label" data-i18n="portfolio-label">Transformation Portfolio</div>
+    <h2 data-i18n="portfolio-title">21 Business Cases</h2>
+    <p data-i18n="portfolio-desc">Real-world transformation cases across operational excellence, digital, strategy and leadership.</p>
   </div>
-</section>
-
-<section class="section">
-  <div class="eyebrow" data-i18n="portfolio-eyebrow">Portfolio</div>
-  <h2 data-i18n="portfolio-title">21 Business Cases</h2>
-  <div class="grid">
-    <a class="card" href="cases/01-product-availability-transformation/index.html">
+  <div class="portfolio-grid">
+    <a class="case-card" href="cases/01-product-availability-transformation/index.html">
       <div class="eyebrow" data-i18n="case01-tag">Case 01 · Operational Excellence</div>
       <h3 data-i18n="case01-title">Product Availability Transformation</h3>
       <p data-i18n="case01-desc">12% → 2% · ≈ BRL 8M identified value opportunity</p>
     </a>
-    <a class="card" href="cases/02-operational-turnaround/index.html">
+    <a class="case-card" href="cases/02-operational-turnaround/index.html">
       <div class="eyebrow" data-i18n="case02-tag">Case 02 · Performance Recovery</div>
       <h3 data-i18n="case02-title">Operational Turnaround</h3>
       <p data-i18n="case02-desc">18% losses · 90-day recovery roadmap</p>
     </a>
-    <a class="card" href="cases/03-enterprise-performance-management/index.html">
+    <a class="case-card" href="cases/03-enterprise-performance-management/index.html">
       <div class="eyebrow" data-i18n="case03-tag">Case 03 · KPI Governance</div>
       <h3 data-i18n="case03-title">Enterprise Performance Management</h3>
       <p data-i18n="case03-desc">One KPI architecture · Faster executive decisions</p>
     </a>
-    <a class="card" href="cases/04-end-to-end-digitalization/index.html">
+    <a class="case-card" href="cases/04-end-to-end-digitalization/index.html">
       <div class="eyebrow" data-i18n="case04-tag">Case 04 · Digital Transformation</div>
       <h3 data-i18n="case04-title">End-to-End Process Digitalization</h3>
       <p data-i18n="case04-desc">40% cycle-time target · 70% fewer manual entries</p>
     </a>
-    <a class="card" href="cases/05-multisite-variability-reduction/index.html">
+    <a class="case-card" href="cases/05-multisite-variability-reduction/index.html">
       <div class="eyebrow" data-i18n="case05-tag">Case 05 · Operational Excellence</div>
       <h3 data-i18n="case05-title">Multi-Site Variability Reduction</h3>
       <p data-i18n="case05-desc">30% variability reduction · Best-known-method deployment</p>
     </a>
-    <a class="card" href="cases/06-high-performance-teams/index.html">
+    <a class="case-card" href="cases/06-high-performance-teams/index.html">
       <div class="eyebrow" data-i18n="case06-tag">Case 06 · Leadership</div>
       <h3 data-i18n="case06-title">High-Performance Teams</h3>
       <p data-i18n="case06-desc">Clear ownership · Faster issue resolution</p>
     </a>
-    <a class="card" href="cases/07-predictive-safety-management/index.html">
-      <div class="eyebrow" data-i18n="case07-tag">Case 07 · Risk &amp; Safety</div>
+    <a class="case-card" href="cases/07-predictive-safety-management/index.html">
+      <div class="eyebrow" data-i18n="case07-tag">Case 07 · Risk & Safety</div>
       <h3 data-i18n="case07-title">Predictive Safety Management</h3>
       <p data-i18n="case07-desc">Leading indicators · Critical-control verification</p>
     </a>
-    <a class="card" href="cases/08-continuous-improvement-system/index.html">
+    <a class="case-card" href="cases/08-continuous-improvement-system/index.html">
       <div class="eyebrow" data-i18n="case08-tag">Case 08 · Continuous Improvement</div>
       <h3 data-i18n="case08-title">Continuous Improvement System</h3>
       <p data-i18n="case08-desc">Strategy-linked funnel · Sustained benefits</p>
     </a>
-    <a class="card" href="cases/09-ai-enabled-operations/index.html">
-      <div class="eyebrow" data-i18n="case09-tag">Case 09 · AI &amp; Productivity</div>
+    <a class="case-card" href="cases/09-ai-enabled-operations/index.html">
+      <div class="eyebrow" data-i18n="case09-tag">Case 09 · AI & Productivity</div>
       <h3 data-i18n="case09-title">AI-Enabled Operations</h3>
       <p data-i18n="case09-desc">Human-in-the-loop · Value-first use cases</p>
     </a>
-    <a class="card" href="cases/10-inventory-optimization/index.html">
+    <a class="case-card" href="cases/10-inventory-optimization/index.html">
       <div class="eyebrow" data-i18n="case10-tag">Case 10 · Supply Chain</div>
       <h3 data-i18n="case10-title">Inventory Optimization</h3>
       <p data-i18n="case10-desc">15–25% inventory target · Service protected</p>
     </a>
-    <a class="card" href="cases/11-lean-office-transformation/index.html">
+    <a class="case-card" href="cases/11-lean-office-transformation/index.html">
       <div class="eyebrow" data-i18n="case11-tag">Case 11 · Corporate Efficiency</div>
       <h3 data-i18n="case11-title">Lean Office Transformation</h3>
       <p data-i18n="case11-desc">30% lead-time target · Fewer approvals</p>
     </a>
-    <a class="card" href="cases/12-enterprise-change-management/index.html">
+    <a class="case-card" href="cases/12-enterprise-change-management/index.html">
       <div class="eyebrow" data-i18n="case12-tag">Case 12 · Change Management</div>
       <h3 data-i18n="case12-title">Enterprise Change Management</h3>
       <p data-i18n="case12-desc">Readiness gates · Operational continuity</p>
     </a>
-    <a class="card" href="cases/13-capex-governance/index.html">
+    <a class="case-card" href="cases/13-capex-governance/index.html">
       <div class="eyebrow" data-i18n="case13-tag">Case 13 · Investment Strategy</div>
       <h3 data-i18n="case13-title">Strategic CAPEX Governance</h3>
       <p data-i18n="case13-desc">Risk-adjusted scoring · Benefits realization</p>
     </a>
-    <a class="card" href="cases/14-transformation-management-office/index.html">
+    <a class="case-card" href="cases/14-transformation-management-office/index.html">
       <div class="eyebrow" data-i18n="case14-tag">Case 14 · Transformation Governance</div>
       <h3 data-i18n="case14-title">Transformation Management Office</h3>
       <p data-i18n="case14-desc">One portfolio view · Faster decisions</p>
     </a>
-    <a class="card" href="cases/15-transformation-portfolio-management/index.html">
+    <a class="case-card" href="cases/15-transformation-portfolio-management/index.html">
       <div class="eyebrow" data-i18n="case15-tag">Case 15 · Portfolio Management</div>
       <h3 data-i18n="case15-title">Transformation Portfolio Management</h3>
       <p data-i18n="case15-desc">Capacity-based prioritization · Higher return</p>
     </a>
-    <a class="card" href="cases/16-customer-experience-transformation/index.html">
+    <a class="case-card" href="cases/16-customer-experience-transformation/index.html">
       <div class="eyebrow" data-i18n="case16-tag">Case 16 · Customer Value</div>
       <h3 data-i18n="case16-title">Operations-Led Customer Experience</h3>
       <p data-i18n="case16-desc">End-to-end journeys · Lower customer effort</p>
     </a>
-    <a class="card" href="cases/17-operational-sustainability/index.html">
-      <div class="eyebrow" data-i18n="case17-tag">Case 17 · ESG &amp; Efficiency</div>
+    <a class="case-card" href="cases/17-operational-sustainability/index.html">
+      <div class="eyebrow" data-i18n="case17-tag">Case 17 · ESG & Efficiency</div>
       <h3 data-i18n="case17-title">Operational Sustainability</h3>
       <p data-i18n="case17-desc">Process-level targets · Financial + environmental value</p>
     </a>
-    <a class="card" href="cases/18-lean-plant-expansion/index.html">
+    <a class="case-card" href="cases/18-lean-plant-expansion/index.html">
       <div class="eyebrow" data-i18n="case18-tag">Case 18 · Manufacturing Strategy</div>
       <h3 data-i18n="case18-title">Lean Plant Expansion</h3>
       <p data-i18n="case18-desc">Flow-based layout · Faster ramp-up</p>
     </a>
-    <a class="card" href="cases/19-operational-crisis-recovery/index.html">
+    <a class="case-card" href="cases/19-operational-crisis-recovery/index.html">
       <div class="eyebrow" data-i18n="case19-tag">Case 19 · Business Resilience</div>
       <h3 data-i18n="case19-title">Operational Crisis Recovery</h3>
       <p data-i18n="case19-desc">Control tower · Recovery + redesign</p>
     </a>
-    <a class="card" href="cases/20-five-year-transformation-roadmap/index.html">
+    <a class="case-card" href="cases/20-five-year-transformation-roadmap/index.html">
       <div class="eyebrow" data-i18n="case20-tag">Case 20 · Enterprise Strategy</div>
       <h3 data-i18n="case20-title">Five-Year Transformation Roadmap</h3>
       <p data-i18n="case20-desc">Sequenced agenda · Capability-led growth</p>
     </a>
-    <a class="card" href="cases/21-digital-product-transformation/index.html">
+    <a class="case-card" href="cases/21-digital-product-transformation/index.html">
       <div class="eyebrow" data-i18n="case21-tag">Case 21 · Digital Product</div>
       <h3 data-i18n="case21-title">Digital Product Strategy</h3>
       <p data-i18n="case21-desc">From OpEx to product · MVP launched</p>
@@ -199,10 +265,83 @@
   </div>
 </section>
 
-<footer class="footer">
-  <div class="footer-left">
-    <span data-i18n="footer-text">&copy; 2026 Gabriele Miranda</span>
+<section class="section-sm" id="frameworks">
+  <div class="section-header">
+    <div class="label" data-i18n="fw-label">Framework Library</div>
+    <h2 data-i18n="fw-title">Proven Methodologies</h2>
+    <p data-i18n="fw-desc">Reusable frameworks I apply across transformations to deliver consistent, measurable results.</p>
   </div>
+  <div class="fw-grid">
+    <div class="fw-card"><h3 data-i18n="fw1-title">Transformation Roadmap</h3><p data-i18n="fw1-desc">Structured 5-phase approach from diagnosis to sustain.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw2-title">Stakeholder Mapping</h3><p data-i18n="fw2-desc">Influence-impact matrix for change management.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw3-title">Risk Heatmap</h3><p data-i18n="fw3-desc">Probability vs. impact matrix for transformation risks.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw4-title">Operational Governance</h3><p data-i18n="fw4-desc">Routine structure for performance management.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw5-title">Decision Matrix</h3><p data-i18n="fw5-desc">Weighted criteria for objective prioritization.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw6-title">PDCA Framework</h3><p data-i18n="fw6-desc">Plan-Do-Check-Act for continuous improvement cycles.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw7-title">CI Canvas</h3><p data-i18n="fw7-desc">Visual framework for improvement opportunity capture.</p></div>
+    <div class="fw-card"><h3 data-i18n="fw8-title">Performance Dashboard</h3><p data-i18n="fw8-desc">KPI hierarchy aligned to strategy execution.</p></div>
+  </div>
+</section>
+
+<section class="section" id="insights">
+  <div class="section-header">
+    <div class="label" data-i18n="insight-label">Insights</div>
+    <h2 data-i18n="insight-title">Thought Leadership</h2>
+    <p data-i18n="insight-desc">Articles, reflections and frameworks from the front line of business transformation.</p>
+  </div>
+  <div class="insights-grid">
+    <div class="insight-card">
+      <div class="cat" data-i18n="insight1-cat">Leadership</div>
+      <h3 data-i18n="insight1-title">The Difference Between Managing and Leading Transformation</h3>
+      <p data-i18n="insight1-desc">Why execution alone isn't enough — and how to build the change muscle in your organization.</p>
+    </div>
+    <div class="insight-card">
+      <div class="cat" data-i18n="insight2-cat">Operations</div>
+      <h3 data-i18n="insight2-title">Why 70% of Transformations Fail (And What Works)</h3>
+      <p data-i18n="insight2-desc">Lessons from 50+ transformation initiatives on what separates success from failure.</p>
+    </div>
+    <div class="insight-card">
+      <div class="cat" data-i18n="insight3-cat">Product</div>
+      <h3 data-i18n="insight3-title">From OpEx to Product: A New Career Trajectory</h3>
+      <p data-i18n="insight3-desc">How operational excellence principles apply to building digital products.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm" id="about">
+  <div class="section-header">
+    <div class="label" data-i18n="about-label">About</div>
+    <h2 data-i18n="about-title">Transformation Story</h2>
+  </div>
+  <div class="about-preview">
+    <div>
+      <p data-i18n="about-p1">Chemical Engineer and transformation leader. From engineering to executive management across four multinationals — leading over 50 initiatives in Operational Excellence, Digital Transformation, and Continuous Improvement.</p>
+      <p data-i18n="about-p2">Key results include reducing operational inefficiency from <strong>12% to 2%</strong> at Michelin, increasing capacity by <strong>130%</strong> at Moove, and reducing scrap by <strong>50%</strong> at Knauf.</p>
+      <a class="btn" href="about.html" data-i18n="about-link">Full Story →</a>
+    </div>
+    <div class="timeline-mini">
+      <div class="tl-item"><div class="tl-year">2017 – 2024</div><div class="tl-text">Engineering → Operations Manager across 4 multinationals</div></div>
+      <div class="tl-item"><div class="tl-year">50+</div><div class="tl-text">Transformation initiatives delivered in industrial environments</div></div>
+      <div class="tl-item"><div class="tl-year">6 Industries</div><div class="tl-text">Tire, mining, chemicals, construction, energy, lubricants</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-header">
+    <div class="label" data-i18n="contact-label">Contact</div>
+    <h2 data-i18n="contact-title">Let's Connect</h2>
+    <p data-i18n="contact-desc">Open to executive opportunities in Business Transformation, Operational Excellence, and strategic leadership.</p>
+  </div>
+  <div class="contact-flex">
+    <a href="mailto:gabrieleufruralrj@gmail.com" class="contact-item"><span class="icon">✉</span> gabrieleufruralrj@gmail.com</a>
+    <a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener" class="contact-item"><span class="icon">▣</span> linkedin.com/in/gabrielemiranda</a>
+    <a href="curriculo.html" class="contact-item"><span class="icon">↓</span> Download CV</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-left"><span data-i18n="footer-text">© 2026 Gabriele Miranda — THE TRANSFORMATION LAB</span></div>
   <div class="footer-right">
     <a href="mailto:gabrieleufruralrj@gmail.com">gabrieleufruralrj@gmail.com</a>
     <a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">linkedin.com/in/gabrielemiranda</a>
@@ -210,5 +349,38 @@
 </footer>
 
 <script src="assets/i18n.js"></script>
+<script>
+// Counter animation
+function animateCounters() {
+  document.querySelectorAll('.counter').forEach(el => {
+    const target = +el.dataset.target;
+    const duration = 1500;
+    const steps = 30;
+    const increment = target / steps;
+    let current = 0;
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= target) { el.textContent = target; clearInterval(timer); }
+      else { el.textContent = Math.floor(current); }
+    }, duration / steps);
+  });
+}
+
+// Mobile nav toggle
+document.getElementById('mobile-toggle').addEventListener('click', () => {
+  document.getElementById('nav-links').classList.toggle('open');
+});
+
+// Intersection observer for counters
+const impactSection = document.getElementById('impact');
+if (impactSection) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { animateCounters(); observer.disconnect(); }
+    });
+  }, { threshold: 0.3 });
+  observer.observe(impactSection);
+}
+</script>
 </body>
 </html>

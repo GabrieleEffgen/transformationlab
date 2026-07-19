@@ -2,50 +2,70 @@ const i18n = {
   currentLang: localStorage.getItem('lang') || 'en',
 
   translations: {
+    // NAV
     'nav-brand': { en: 'THE <span>TRANSFORMATION LAB</span>', pt: 'THE <span>TRANSFORMATION LAB</span>' },
-    'nav-resume': { en: 'Resume', pt: 'Currículo' },
-    'nav-about': { en: 'About', pt: 'Sobre' },
-    'nav-portfolio': { en: 'Portfolio', pt: 'Portfólio' },
-    'nav-contact': { en: 'Contact', pt: 'Contato' },
+    'nav-home': { en: 'HOME', pt: 'HOME' },
+    'nav-capabilities': { en: 'CAPABILITIES', pt: 'CAPACIDADES' },
+    'nav-cases': { en: 'CASE STUDIES', pt: 'CASES' },
+    'nav-frameworks': { en: 'FRAMEWORKS', pt: 'FRAMEWORKS' },
+    'nav-insights': { en: 'INSIGHTS', pt: 'INSIGHTS' },
+    'nav-about': { en: 'ABOUT', pt: 'SOBRE' },
+    'nav-contact': { en: 'CONTACT', pt: 'CONTATO' },
 
-    'hero-eyebrow': { en: 'Executive Portfolio · Business Transformation', pt: 'Portfólio Executivo · Business Transformation' },
-    'hero-title': { en: 'Gabriele <span class="gold">Miranda</span>', pt: 'Gabriele <span class="gold">Miranda</span>' },
+    // HERO
     'hero-title-line': { en: 'Business Transformation Leader', pt: 'Líder em Business Transformation' },
-    'hero-lead': { en: 'Turning complex operations into scalable, high-performing systems through Operational Excellence, Digital Transformation, and Continuous Improvement.', pt: 'Transformando operações complexas em sistemas escaláveis e de alta performance através de Excelência Operacional, Transformação Digital e Melhoria Contínua.' },
+    'hero-title': { en: 'Gabriele <span>Miranda</span>', pt: 'Gabriele <span>Miranda</span>' },
+    'tag-opex': { en: 'Operational Excellence', pt: 'Excelência Operacional' },
+    'tag-digital': { en: 'Digital Transformation', pt: 'Transformação Digital' },
+    'tag-ci': { en: 'Continuous Improvement', pt: 'Melhoria Contínua' },
+    'tag-product': { en: 'Product Strategy', pt: 'Estratégia de Produto' },
+    'hero-lead': { en: 'Transforming complex operations into scalable, high-performing business systems.', pt: 'Transformando operações complexas em sistemas de negócio escaláveis e de alta performance.' },
     'hero-btn-portfolio': { en: 'Explore Case Studies →', pt: 'Explorar Cases →' },
     'hero-btn-resume': { en: 'Download Executive Resume →', pt: 'Baixar Currículo Executivo →' },
 
-    'about-p1': { en: 'Throughout my career, I discovered that a company\'s competitive advantage lies not only in its processes, but in the ability to transform strategy into execution through people. My work goes beyond leading continuous improvement projects: I structure management systems, lead organizational transformation programs, strengthen process governance, and develop teams capable of sustaining long-term results.', pt: 'Ao longo da minha carreira, descobri que a vantagem competitiva de uma indústria não está apenas em seus processos, mas na capacidade de transformar estratégia em execução por meio das pessoas. Minha atuação vai além da condução de projetos de melhoria contínua: estruturo sistemas de gestão, lidero programas de transformação organizacional, fortaleço a governança dos processos e desenvolvo equipes capazes de sustentar resultados de longo prazo.' },
-    'about-p2': { en: 'Key results include reducing operational inefficiency from <strong>12% to 2%</strong> at Michelin, increasing operational capacity by <strong>130%</strong> at Moove, and reducing industrial scrap by <strong>50%</strong> at Knauf.', pt: 'Entre os principais resultados destacam-se a redução da ineficiência operacional de <strong>12% para 2%</strong> na Michelin, o aumento de <strong>130%</strong> da capacidade operacional na Moove, e a redução de <strong>50%</strong> no refugo industrial na Knauf.' },
-    'about-btn-resume': { en: 'Full resume →', pt: 'Currículo completo →' },
+    // IMPACT
+    'impact-label': { en: 'Executive Impact', pt: 'Impacto Executivo' },
+    'impact-title': { en: 'Track Record by the Numbers', pt: 'Trajetória em Números' },
+    'stat1': { en: 'Years Leading Transformation', pt: 'Anos Liderando Transformação' },
+    'stat2': { en: 'Projects Delivered', pt: 'Projetos Entregues' },
+    'stat3': { en: 'Teams Led', pt: 'Equipes Lideradas' },
+    'stat4': { en: 'Business Value Generated', pt: 'Valor de Negócio Gerado' },
+    'stat5': { en: 'Operational Improvements', pt: 'Melhorias Operacionais' },
+    'stat6': { en: 'Industries', pt: 'Indústrias' },
 
-    'tag-opex': { en: 'Operational Excellence', pt: 'Excelência Operacional' },
-    'tag-ci': { en: 'Continuous Improvement', pt: 'Melhoria Contínua' },
-    'tag-lss': { en: 'Lean Six Sigma', pt: 'Lean Six Sigma' },
-    'tag-digital': { en: 'Digital Transformation', pt: 'Transformação Digital' },
-    'tag-cm': { en: 'Change Management', pt: 'Gestão de Mudanças' },
-    'tag-kpi': { en: 'KPI Governance', pt: 'Governança de KPI' },
-    'tag-bpm': { en: 'Process Redesign', pt: 'Redesenho de Processos' },
-    'tag-people': { en: 'People Development', pt: 'Desenvolvimento de Pessoas' },
+    // CAPABILITIES
+    'cap-label': { en: 'Core Capabilities', pt: 'Capacidades Essenciais' },
+    'cap-title': { en: 'What I Deliver', pt: 'O Que Eu Entrego' },
+    'cap-desc': { en: 'Each capability represents a distinct discipline I apply to solve complex operational and strategic challenges.', pt: 'Cada capacidade representa uma disciplina distinta que aplico para resolver desafios operacionais e estratégicos complexos.' },
+    'cap1-title': { en: 'Operational Excellence', pt: 'Excelência Operacional' },
+    'cap1-desc': { en: 'Improving operational performance through Lean, process redesign, governance and performance management.', pt: 'Melhorando a performance operacional através de Lean, redesenho de processos, governança e gestão de performance.' },
+    'cap2-title': { en: 'Business Transformation', pt: 'Business Transformation' },
+    'cap2-desc': { en: 'Leading large-scale transformation initiatives involving people, processes, governance and strategic execution.', pt: 'Liderando iniciativas de transformação em larga escala envolvendo pessoas, processos, governança e execução estratégica.' },
+    'cap3-title': { en: 'Continuous Improvement', pt: 'Melhoria Contínua' },
+    'cap3-desc': { en: 'Creating sustainable improvement systems through structured problem solving and operational excellence.', pt: 'Criando sistemas sustentáveis de melhoria através de solução estruturada de problemas e excelência operacional.' },
+    'cap4-title': { en: 'Leadership & Change', pt: 'Liderança & Mudança' },
+    'cap4-desc': { en: 'Developing people, building engagement and sustaining change through complex transformations.', pt: 'Desenvolvendo pessoas, construindo engajamento e sustentando mudanças em transformações complexas.' },
+    'cap5-title': { en: 'Digital Transformation', pt: 'Transformação Digital' },
+    'cap5-desc': { en: 'Applying business transformation principles to digital products, technology and innovation.', pt: 'Aplicando princípios de business transformation a produtos digitais, tecnologia e inovação.' },
+    'cap6-title': { en: 'Product Strategy', pt: 'Estratégia de Produto' },
+    'cap6-desc': { en: 'Applying operational thinking to create, validate and continuously improve digital products.', pt: 'Aplicando pensamento operacional para criar, validar e melhorar continuamente produtos digitais.' },
 
-    'featured-eyebrow': { en: 'Featured real-world case', pt: 'Case real em destaque' },
+    // FEATURED
+    'featured-label': { en: 'Featured Transformation', pt: 'Transformação em Destaque' },
     'featured-title': { en: 'Product Availability Transformation', pt: 'Transformação de Disponibilidade de Produto' },
     'featured-desc': { en: 'Cross-functional transformation reducing product unavailability from 12% to 2% in approximately two months.', pt: 'Transformação multifuncional reduzindo a indisponibilidade de produto de 12% para 2% em aproximadamente dois meses.' },
-    'featured-btn': { en: 'Explore the case →', pt: 'Explorar o case →' },
+    'featured-btn': { en: 'Read Case →', pt: 'Ler Case →' },
     'metric-unav': { en: 'Unavailability', pt: 'Indisponibilidade' },
     'metric-red': { en: 'Relative reduction', pt: 'Redução relativa' },
-    'metric-value': { en: 'Identified value opportunity', pt: 'Oportunidade identificada' },
+    'metric-value': { en: 'Identified value', pt: 'Valor identificado' },
     'metric-time': { en: 'Delivery period', pt: 'Período de entrega' },
 
-    'method-eyebrow': { en: 'Executive Method', pt: 'Método Executivo' },
-    'method-title': { en: 'Discover. Diagnose. Prioritize.<br>Design. Deliver. Sustain.', pt: 'Descobrir. Diagnosticar. Priorizar.<br>Desenhar. Entregar. Sustentar.' },
-
-    'logos-eyebrow': { en: 'Experience Across', pt: 'Experiência em' },
-    'logos-title': { en: 'Trusted by Industry Leaders', pt: 'Parceiros da Indústria' },
-
-    'portfolio-eyebrow': { en: 'Portfolio', pt: 'Portfólio' },
+    // PORTFOLIO
+    'portfolio-label': { en: 'Transformation Portfolio', pt: 'Portfólio de Transformação' },
     'portfolio-title': { en: '21 Business Cases', pt: '21 Business Cases' },
+    'portfolio-desc': { en: 'Real-world transformation cases across operational excellence, digital, strategy and leadership.', pt: 'Casos reais de transformação em excelência operacional, digital, estratégia e liderança.' },
 
+    // CASE CARDS
     'case01-tag': { en: 'Case 01 · Operational Excellence', pt: 'Case 01 · Excelência Operacional' },
     'case01-title': { en: 'Product Availability Transformation', pt: 'Transformação de Disponibilidade de Produto' },
     'case01-desc': { en: '12% → 2% · ≈ BRL 8M identified value opportunity', pt: '12% → 2% · ≈ BRL 8M de oportunidade identificada' },
@@ -106,104 +126,59 @@ const i18n = {
     'case20-tag': { en: 'Case 20 · Enterprise Strategy', pt: 'Case 20 · Estratégia Empresarial' },
     'case20-title': { en: 'Five-Year Transformation Roadmap', pt: 'Roadmap de Transformação de 5 Anos' },
     'case20-desc': { en: 'Sequenced agenda · Capability-led growth', pt: 'Agenda sequenciada · Crescimento liderado por capacidades' },
-
     'case21-tag': { en: 'Case 21 · Digital Product', pt: 'Case 21 · Produto Digital' },
     'case21-title': { en: 'Digital Product Strategy', pt: 'Estratégia de Produto Digital' },
     'case21-desc': { en: 'From OpEx to product · MVP launched', pt: 'Da Excelência Operacional ao Produto · MVP lançado' },
 
-    'footer-text': { en: '© 2026 Gabriele Miranda', pt: '© 2026 Gabriele Miranda' },
-    'footer-email': { en: 'Email', pt: 'Email' },
-    'footer-linkedin': { en: 'LinkedIn', pt: 'LinkedIn' },
+    // FRAMEWORKS
+    'fw-label': { en: 'Framework Library', pt: 'Biblioteca de Frameworks' },
+    'fw-title': { en: 'Proven Methodologies', pt: 'Metodologias Comprovadas' },
+    'fw-desc': { en: 'Reusable frameworks I apply across transformations to deliver consistent, measurable results.', pt: 'Frameworks reutilizáveis que aplico em transformações para entregar resultados consistentes e mensuráveis.' },
+    'fw1-title': { en: 'Transformation Roadmap', pt: 'Roadmap de Transformação' },
+    'fw1-desc': { en: 'Structured 5-phase approach from diagnosis to sustain.', pt: 'Abordagem estruturada de 5 fases, do diagnóstico à sustentação.' },
+    'fw2-title': { en: 'Stakeholder Mapping', pt: 'Mapeamento de Stakeholders' },
+    'fw2-desc': { en: 'Influence-impact matrix for change management.', pt: 'Matriz de influência-impacto para gestão de mudanças.' },
+    'fw3-title': { en: 'Risk Heatmap', pt: 'Mapa de Calor de Riscos' },
+    'fw3-desc': { en: 'Probability vs. impact matrix for transformation risks.', pt: 'Matriz de probabilidade vs. impacto para riscos de transformação.' },
+    'fw4-title': { en: 'Operational Governance', pt: 'Governança Operacional' },
+    'fw4-desc': { en: 'Routine structure for performance management.', pt: 'Estrutura de rotinas para gestão de performance.' },
+    'fw5-title': { en: 'Decision Matrix', pt: 'Matriz de Decisão' },
+    'fw5-desc': { en: 'Weighted criteria for objective prioritization.', pt: 'Critérios ponderados para priorização objetiva.' },
+    'fw6-title': { en: 'PDCA Framework', pt: 'Framework PDCA' },
+    'fw6-desc': { en: 'Plan-Do-Check-Act for continuous improvement cycles.', pt: 'Plan-Do-Check-Act para ciclos de melhoria contínua.' },
+    'fw7-title': { en: 'CI Canvas', pt: 'Canvas de Melhoria Contínua' },
+    'fw7-desc': { en: 'Visual framework for improvement opportunity capture.', pt: 'Framework visual para captura de oportunidades de melhoria.' },
+    'fw8-title': { en: 'Performance Dashboard', pt: 'Dashboard de Performance' },
+    'fw8-desc': { en: 'KPI hierarchy aligned to strategy execution.', pt: 'Hierarquia de KPIs alinhada à execução da estratégia.' },
 
-    'about-hero-eyebrow': { en: 'About', pt: 'Sobre' },
-    'about-hero-title': { en: 'Gabriele <span class="gold">Miranda</span>', pt: 'Gabriele <span class="gold">Miranda</span>' },
-    'about-hero-desc': { en: 'Chemical Engineer and transformation leader with experience in operational excellence, continuous improvement, process redesign, digitalization, governance, and people development in multinational industrial environments.', pt: 'Engenheira Química e líder de transformação com experiência em excelência operacional, melhoria contínua, redesenho de processos, digitalização, governança e desenvolvimento de pessoas em ambientes industriais multinacionais.' },
-    'about-section-title': { en: 'Executive positioning', pt: 'Posicionamento executivo' },
-    'about-section-desc': { en: 'My work connects strategy, processes, people, and performance to turn complex operational challenges into measurable and sustainable business outcomes.', pt: 'Meu trabalho conecta estratégia, processos, pessoas e performance para transformar desafios operacionais complexos em resultados de negócio mensuráveis e sustentáveis.' },
-    'about-btn-resume': { en: 'Full resume →', pt: 'Currículo completo →' },
-    'about-btn-portfolio': { en: '← Portfolio', pt: '← Portfólio' },
+    // INSIGHTS
+    'insight-label': { en: 'Insights', pt: 'Insights' },
+    'insight-title': { en: 'Thought Leadership', pt: 'Liderança de Pensamento' },
+    'insight-desc': { en: 'Articles, reflections and frameworks from the front line of business transformation.', pt: 'Artigos, reflexões e frameworks da linha de frente da transformação de negócios.' },
+    'insight1-cat': { en: 'Leadership', pt: 'Liderança' },
+    'insight1-title': { en: 'The Difference Between Managing and Leading Transformation', pt: 'A Diferença Entre Gerenciar e Liderar Transformação' },
+    'insight1-desc': { en: 'Why execution alone isn\'t enough — and how to build the change muscle in your organization.', pt: 'Por que apenas execução não basta — e como construir o músculo da mudança na sua organização.' },
+    'insight2-cat': { en: 'Operations', pt: 'Operações' },
+    'insight2-title': { en: 'Why 70% of Transformations Fail (And What Works)', pt: 'Por Que 70% das Transformações Falham (E O Que Funciona)' },
+    'insight2-desc': { en: 'Lessons from 50+ transformation initiatives on what separates success from failure.', pt: 'Lições de 50+ iniciativas de transformação sobre o que separa o sucesso do fracasso.' },
+    'insight3-cat': { en: 'Product', pt: 'Produto' },
+    'insight3-title': { en: 'From OpEx to Product: A New Career Trajectory', pt: 'Da Excelência Operacional ao Produto: Uma Nova Trajetória' },
+    'insight3-desc': { en: 'How operational excellence principles apply to building digital products.', pt: 'Como princípios de excelência operacional se aplicam à construção de produtos digitais.' },
 
-    'about-i18n': { en: 'About', pt: 'Sobre' },
-    'about-p1b': { en: 'In less than 10 years, I evolved from trainee to executive manager across four major multinationals, leading increasingly complex operations and teams in the manufacturing industry. I have led over 50 transformation initiatives in multinational companies, delivering significant gains in productivity, quality, safety, availability, operational efficiency, and business value generation.', pt: 'Em menos de 10 anos, evoluí de trainee para gerente executiva em quatro multinacionais de grande porte, liderando operações e equipes cada vez mais complexas na indústria de transformação. Liderei mais de 50 iniciativas de transformação em empresas multinacionais, promovendo ganhos expressivos em produtividade, qualidade, segurança, disponibilidade, eficiência operacional e geração de valor para o negócio.' },
-    'about-p1c': { en: 'Key results include reducing operational inefficiency from 12% to 2% at Michelin through process restructuring and performance management; increasing operational capacity by 130% at Moove using VOC and Design Thinking; and reducing scrap by 50% at Knauf through BPMN, Lean Manufacturing, and DMAIC.', pt: 'Entre meus principais resultados destacam-se a redução da ineficiência operacional de 12% para 2% na Michelin por meio da reestruturação de processos e gestão da performance; o aumento de 130% da capacidade operacional na Moove utilizando VOC e Design Thinking; e a redução de 50% no refugo através da implantação de BPMN, Lean Manufacturing e DMAIC.' },
-    'about-p1d': { en: 'My leadership combines strategic thinking, analytical capability, and a strong execution orientation. I use Lean Manufacturing, Six Sigma Green Belt, BPMN, DMAIC, Design Thinking, and VOC as means to generate impact. I believe excellent processes only produce consistent results when supported by a strong culture, prepared leadership, and engaged teams.', pt: 'Minha forma de liderar combina pensamento estratégico, capacidade analítica e forte orientação para execução. Utilizo metodologias como Lean Manufacturing, Six Sigma Green Belt, BPMN, DMAIC, Design Thinking e VOC como meios para gerar impacto. Acredito que processos excelentes somente produzem resultados consistentes quando existe uma cultura forte, liderança preparada e equipes engajadas.' },
-    'about-p1e': { en: 'I am currently seeking opportunities in Continuous Improvement Management, Business Transformation, and Manufacturing Excellence leadership positions.', pt: 'Atualmente busco contribuir em posições de Gerência de Melhoria Contínua e Business Transformation, Manufacturing Excellence.' },
+    // ABOUT
+    'about-label': { en: 'About', pt: 'Sobre' },
+    'about-title': { en: 'Transformation Story', pt: 'História de Transformação' },
+    'about-p1': { en: 'Chemical Engineer and transformation leader. From engineering to executive management across four multinationals — leading over 50 initiatives in Operational Excellence, Digital Transformation, and Continuous Improvement.', pt: 'Engenheira Química e líder de transformação. Da engenharia à gestão executiva em quatro multinacionais — liderando mais de 50 iniciativas em Excelência Operacional, Transformação Digital e Melhoria Contínua.' },
+    'about-p2': { en: 'Key results include reducing operational inefficiency from <strong>12% to 2%</strong> at Michelin, increasing capacity by <strong>130%</strong> at Moove, and reducing scrap by <strong>50%</strong> at Knauf.', pt: 'Resultados-chave incluem reduzir ineficiência operacional de <strong>12% para 2%</strong> na Michelin, aumentar capacidade em <strong>130%</strong> na Moove e reduzir refugo em <strong>50%</strong> na Knauf.' },
+    'about-link': { en: 'Full Story →', pt: 'História Completa →' },
 
-    'exp-i18n': { en: 'Experience', pt: 'Experiência' },
-    'job1-title': { en: 'Operations Manager', pt: 'Gerente de Operações' },
-    'job1-dates': { en: 'Aug 2024 - Present · 2 years', pt: 'ago de 2024 - o momento · 2 anos' },
-    'job1-desc': { en: 'Strategic leadership of industrial operations in a high-complexity environment, driving operational transformation initiatives focused on operational excellence, performance management, leadership development, and business value generation.', pt: 'Responsável pela liderança estratégica de operações industriais em ambiente de alta complexidade, conduzindo iniciativas de transformação operacional com foco em excelência operacional, gestão da performance, desenvolvimento de lideranças e geração de valor para o negócio.' },
-    'job1-b1': { en: 'Led an operational transformation that reduced production inefficiency from 12% to 2% in just two months through process restructuring, performance management, and team integration.', pt: 'Liderei uma transformação operacional que reduziu a ineficiência produtiva de 12% para 2% em apenas dois meses, por meio da reestruturação de processos, gestão da performance e integração entre equipes.' },
-    'job1-b2': { en: 'Managed the strategic investment portfolio (CAPEX and OPEX), prioritizing initiatives based on financial return, operational impact, and business alignment — achieving over R$ 1M in OPEX reduction.', pt: 'Gerenciei o portfólio estratégico de investimentos (CAPEX e OPEX), priorizando iniciativas com base em retorno financeiro, impacto operacional e alinhamento aos objetivos do negócio, com resultado factual de diminuição de OPEX em mais de R$ 1M.' },
-    'job1-b3': { en: 'Led transformation projects focused on productivity increase, loss reduction, process optimization, and industrial efficiency using Lean Manufacturing, BPMN, data analysis, and structured continuous improvement methodologies.', pt: 'Conduzi projetos de transformação voltados para aumento de produtividade, redução de perdas, otimização de processos e melhoria da eficiência industrial, utilizando Lean Manufacturing, BPMN, análise de dados e metodologias estruturadas de melhoria contínua.' },
-    'job1-b4': { en: 'Structured performance management routines based on strategic indicators (SQCDMP), strengthening data-driven decision-making, operational governance, and result predictability.', pt: 'Estruturei rotinas de gestão da performance baseadas em indicadores estratégicos (SQCDMP), fortalecendo a tomada de decisão orientada por dados, a governança operacional e a previsibilidade dos resultados.' },
-    'job1-b5': { en: 'Worked cross-functionally with Production, Engineering, Quality, Logistics, and Maintenance, promoting stakeholder alignment and accelerating strategic initiative implementation.', pt: 'Atuei de forma transversal junto às áreas de Produção, Engenharia, Qualidade, Logística e Manutenção, promovendo alinhamento entre stakeholders e acelerando a implementação de iniciativas estratégicas.' },
-    'job1-b6': { en: 'Developed leadership and strengthened high-performance culture through close management, development plans, continuous feedback, and indicator monitoring — resulting in two employees promoted to managers.', pt: 'Desenvolvi lideranças e fortaleci a cultura de alta performance por meio de gestão próxima, planos de desenvolvimento, feedback contínuo e acompanhamento de indicadores, com resultado comprovado em dois funcionários promovidos à gestores.' },
+    // CONTACT
+    'contact-label': { en: 'Contact', pt: 'Contato' },
+    'contact-title': { en: 'Let\'s Connect', pt: 'Vamos Conectar' },
+    'contact-desc': { en: 'Open to executive opportunities in Business Transformation, Operational Excellence, and strategic leadership.', pt: 'Aberta a oportunidades executivas em Business Transformation, Excelência Operacional e liderança estratégica.' },
 
-    'job2-title': { en: 'Regional Continuous Improvement Specialist', pt: 'Especialista de Melhoria Contínua Regional' },
-    'job2-dates': { en: 'Jan 2023 - Aug 2024 · 1 yr 8 mos', pt: 'jan de 2023 - ago de 2024 · 1 ano 8 meses' },
-    'job2-desc': { en: 'Corporate role leading Business Transformation and Operational Excellence initiatives, driving strategic projects focused on process standardization, digitalization, continuous improvement, and operational efficiency across different business units.', pt: 'Atuação corporativa liderando iniciativas de Business Transformation e Operational Excellence, conduzindo projetos estratégicos voltados à padronização de processos, digitalização, melhoria contínua e aumento da eficiência operacional em diferentes unidades da organização.' },
-    'job2-b1': { en: 'Structured and implemented the company\'s process architecture using BPMN, promoting standardization, governance, and greater integration between business areas.', pt: 'Estruturei e implementei a arquitetura de processos da companhia utilizando BPMN, promovendo padronização, governança e maior integração entre áreas de negócio.' },
-    'job2-b2': { en: 'Led operational transformation initiatives that reduced industrial scrap by 50% through Lean Manufacturing, DMAIC, data analysis, and continuous improvement, ensuring sustainable results.', pt: 'Liderei iniciativas de transformação operacional que reduziram o refugo industrial em 50%, por meio da aplicação de Lean Manufacturing, DMAIC, análise de dados e melhoria contínua, garantindo resultados sustentáveis.' },
-    'job2-b3': { en: 'Conducted organizational diagnostics using Voice of Customer (VOC) and NPS to identify improvement opportunities and direct initiatives aligned with business needs.', pt: 'Conduzi diagnósticos organizacionais utilizando Voice of Customer (VOC) e NPS para identificar oportunidades de melhoria e direcionar iniciativas alinhadas às necessidades do negócio.' },
-    'job2-b4': { en: 'Acted as a facilitator of the operational excellence culture, training teams and leadership in Lean Manufacturing, continuous improvement, and process management.', pt: 'Atuei como facilitadora da cultura de excelência operacional, capacitando equipes e lideranças em Lean Manufacturing, melhoria contínua e gestão por processos.' },
-    'job2-b5': { en: 'Managed cross-functional projects involving different stakeholders, promoting strategic alignment, change management, and disciplined execution of transformation initiatives.', pt: 'Gerenciei projetos multifuncionais envolvendo diferentes stakeholders, promovendo alinhamento estratégico, gestão da mudança e execução disciplinada das iniciativas de transformação.' },
-    'job2-b6': { en: 'Led the digitalization and evolution of corporate processes, increasing operational efficiency, information reliability, and data-driven decision-making capability.', pt: 'Liderei a digitalização e evolução dos processos corporativos, aumentando a eficiência operacional, a confiabilidade das informações e a capacidade de tomada de decisão baseada em dados.' },
-
-    'job3-title': { en: 'Production and Maintenance Coordinator', pt: 'Coordenadora de Produção e Manutenção' },
-    'job3-dates': { en: 'Sep 2022 - Jan 2023 · 5 months', pt: 'set de 2022 - jan de 2023 · 5 meses' },
-    'job3-desc': { en: 'Started my industrial leadership trajectory as coordinator, managing production operations, team development, and strengthening operational discipline in a high-complexity industrial environment.', pt: 'Iniciei minha trajetória em liderança industrial como coordenadora atuando na gestão de operações produtivas, desenvolvimento de equipes e fortalecimento da disciplina operacional em ambiente industrial de alta complexidade.' },
-    'job3-b1': { en: 'Managed operational teams, promoting safety, people development, and continuous improvement, ensuring production, quality, and performance targets.', pt: 'Gerenciei equipes operacionais, promovendo segurança, desenvolvimento de pessoas e melhoria contínua, assegurando o cumprimento das metas de produção, qualidade e desempenho.' },
-    'job3-b2': { en: 'Coordinated production activities, ensuring operational stability, process standardization, and adherence to performance indicators.', pt: 'Coordenei a execução das atividades produtivas, garantindo estabilidade operacional, padronização dos processos e aderência aos indicadores de performance.' },
-    'job3-b3': { en: 'Worked with cross-functional areas to solve operational problems, eliminate waste, and increase production process efficiency.', pt: 'Atuei em conjunto com áreas multifuncionais para solucionar problemas operacionais, eliminar desperdícios e aumentar a eficiência dos processos produtivos.' },
-    'job3-b4': { en: 'Developed performance monitoring routines through operational indicators, supporting decision-making and corrective/preventive actions.', pt: 'Desenvolvi rotinas de acompanhamento da performance por meio de indicadores operacionais, apoiando a tomada de decisão e a implementação de ações corretivas e preventivas.' },
-
-    'job4-title': { en: 'Process Engineer', pt: 'Engenheira de Processos' },
-    'job4-dates': { en: 'Jun 2022 - Aug 2022 · 3 months', pt: 'jun de 2022 - ago de 2022 · 3 meses' },
-
-    'job5-title': { en: 'Production Supervisor', pt: 'Supervisora de Produção' },
-    'job5-dates': { en: 'Mar 2021 - Jul 2022 · 1 yr 5 mos', pt: 'mar de 2021 - jul de 2022 · 1 ano 5 meses' },
-    'job5-desc': { en: 'Began my leadership trajectory managing operational teams and production performance, driving operational transformation initiatives focused on productivity, safety, quality, and people development.', pt: 'Iniciei minha trajetória de liderança de equipes operacionais e pela gestão da performance da produção, conduzindo iniciativas de transformação operacional com foco em produtividade, segurança, qualidade e desenvolvimento de pessoas.' },
-    'job5-b1': { en: 'Led the complete restructuring of a production process using Voice of Customer (VOC) and Design Thinking, increasing operational capacity by 130% without significant infrastructure investments.', pt: 'Liderei a reestruturação completa de um processo produtivo utilizando Voice of Customer (VOC) e Design Thinking, elevando a capacidade operacional em 130%, sem necessidade de investimentos significativos em infraestrutura.' },
-    'job5-b2': { en: 'Managed multidisciplinary teams, promoting people development, safety culture, and continuous improvement, aligning team performance with strategic operational goals.', pt: 'Gerenciei equipes multidisciplinares, promovendo desenvolvimento de pessoas, fortalecimento da cultura de segurança e melhoria contínua, alinhando o desempenho das equipes às metas estratégicas da operação.' },
-    'job5-b3': { en: 'Structured performance management routines based on operational indicators, strengthening data-driven decision-making and action plan execution discipline.', pt: 'Estruturei rotinas de gestão da performance baseadas em indicadores operacionais, fortalecendo a tomada de decisão orientada por dados e a disciplina na execução dos planos de ação.' },
-
-    'job6-title': { en: 'Continuous Improvement Analyst', pt: 'Analista de Melhoria Contínua' },
-    'job6-dates': { en: 'Aug 2018 - Feb 2021 · 2 yrs 7 mos', pt: 'ago de 2018 - fev de 2021 · 2 anos 7 meses' },
-    'job6-desc': { en: 'Responsible for leading continuous improvement initiatives focused on productivity increase, process optimization, and business value generation, working cross-functionally with operational areas.', pt: 'Responsável pela condução de iniciativas de melhoria contínua voltadas para aumento da produtividade, otimização dos processos e geração de valor para o negócio, atuando de forma transversal junto às áreas operacionais.' },
-    'job6-b1': { en: 'Led continuous improvement projects using Lean Manufacturing, VOC, Design Thinking, and structured methodologies for waste elimination and operational efficiency increase.', pt: 'Liderei projetos de melhoria contínua utilizando Lean Manufacturing, VOC, Design Thinking e metodologias estruturadas para eliminação de desperdícios e aumento da eficiência operacional.' },
-    'job6-b2': { en: 'Conducted process analysis, bottleneck identification, and sustainable solution implementation, supporting the evolution of operational performance indicators.', pt: 'Conduzi análises de processos, identificação de gargalos e implementação de soluções sustentáveis, apoiando a evolução dos indicadores de desempenho da operação.' },
-    'job6-b3': { en: 'Worked with Production, Engineering, Quality, and Maintenance areas, promoting stakeholder alignment and accelerating improvement initiative implementation.', pt: 'Atuei junto às áreas de Produção, Engenharia, Qualidade e Manutenção, promovendo alinhamento entre stakeholders e acelerando a implementação das iniciativas de melhoria.' },
-
-    'job7-title': { en: 'Trainee', pt: 'Trainee' },
-    'job7-dates': { en: 'Jan 2017 - Aug 2018 · 1 yr 8 mos', pt: 'jan de 2017 - ago de 2018 · 1 ano 8 meses' },
-
-    'job8-title': { en: 'Undergraduate Researcher', pt: 'Pesquisadora de Iniciação Científica' },
-    'job8-dates': { en: 'Nov 2012 - Jul 2014 · 1 yr 9 mos', pt: 'nov de 2012 - jul de 2014 · 1 ano 9 meses' },
-    'job8-b1': { en: 'Synthesized catalysts and performed analysis using TPD, X-RAY, ASAP 2010 and catalytic tests in chromatograph.', pt: 'Síntese de catalisadores e análises utilizando TPD, RAIO-X, ASAP 2010 e testes catalíticos em cromatógrafo.' },
-    'job8-b2': { en: 'Part of a Petrobras project focused on finding larger pores for zeolites used in crude-oil catalysis.', pt: 'Parte de um projeto da Petrobras focado em encontrar poros maiores para zeólitas usadas na catálise de petróleo.' },
-
-    'edu-i18n': { en: 'Education', pt: 'Formação Acadêmica' },
-    'edu1-title': { en: 'Bachelor\'s in Chemical Engineering', pt: 'Bacharelado em Engenharia Química' },
-    'edu1-dates': { en: '2011 – 2020', pt: '2011 – 2020' },
-    'edu1-desc': { en: 'Chemical Engineering degree with solid foundation in data analysis, quality control, and unit operations optimization. Thesis focused on innovation in automotive grease production process.', pt: 'Graduado em Engenharia Química com sólida base em análise de dados, controle de qualidade e otimização de operações unitárias. Conclusão de TCC com foco em Inovação no processo produtivo de fabricação de Graxas automobilísticas.' },
-    'edu2-title': { en: 'Sandwich Exchange Program — Science Without Borders', pt: 'Graduação Sanduíche - Ciência Sem Fronteiras' },
-    'edu2-dates': { en: 'Aug 2014 – Jan 2016', pt: 'ago de 2014 – jan de 2016' },
-    'edu2-desc': { en: 'One and a half years studying chemical engineering courses in New York. Participated in a consulting project for a small business, structuring the business model and strategic plan.', pt: 'Realizei uma graduação sanduíche onde pude ficar 1 ano e meio estudando engenharia química em Nova Iorque. Participei de um projeto de consultoria para uma micro empresa.' },
-
-    'lang-i18n': { en: 'Languages', pt: 'Idiomas' },
-    'lang-en': { en: '— Fluent', pt: '— Fluente' },
-    'lang-pt': { en: '— Native', pt: '— Fluente (nativo)' },
-    'lang-es': { en: '— Basic to Intermediate', pt: '— Básico a intermediário' },
-
-    'certs-i18n': { en: 'Certifications', pt: 'Certificados' },
-    'cert1': { en: 'Lean Six Sigma Green Belt', pt: 'Green Belt Lean Six Sigma' },
-    'cert2': { en: 'BPMN - Business Process Model and Notation', pt: 'BPMN - Modelo de Processo de Negócios e Notação' },
-    'cert3': { en: 'Scrum Master', pt: 'Scrum Master' },
-    'cert4': { en: 'Advanced Microsoft Excel', pt: 'Microsoft Excel Avançado' },
-    'cert5': { en: 'Product Strategy', pt: 'Estratégia de Produto' },
-    'cert6': { en: 'Digital Product Leadership', pt: 'Digital Product Leadership' },
-    'cert7': { en: 'AI in Digital Business', pt: 'IA em Negócios Digitais' },
+    // FOOTER
+    'footer-text': { en: '© 2026 Gabriele Miranda — THE TRANSFORMATION LAB', pt: '© 2026 Gabriele Miranda — THE TRANSFORMATION LAB' },
   },
 
   init() {
@@ -236,17 +211,17 @@ const i18n = {
   },
 
   createToggle() {
-    const nav = document.querySelector('.nav');
-    if (!nav) return;
+    const navLinks = document.getElementById('nav-links');
+    if (!navLinks) return;
     const toggle = document.createElement('a');
     toggle.id = 'lang-toggle';
     toggle.href = '#';
     toggle.textContent = this.currentLang === 'en' ? 'PT' : 'EN';
-    toggle.style.cssText = 'font-size:0.75rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;border:1px solid var(--line-light);padding:4px 12px;border-radius:100px;transition:color 0.2s,border-color 0.2s;margin-left:8px;';
-    toggle.onmouseover = () => { toggle.style.borderColor = 'var(--brass-dark)'; toggle.style.color = 'var(--brass)'; };
-    toggle.onmouseout = () => { toggle.style.borderColor = ''; toggle.style.color = ''; };
+    toggle.style.cssText = 'font-size:0.7rem;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;border:1px solid var(--line-light);padding:4px 10px;border-radius:100px;cursor:pointer;color:var(--text-secondary);background:none;margin-left:4px;';
+    toggle.addEventListener('mouseover', () => { toggle.style.borderColor = 'var(--primary)'; toggle.style.color = 'var(--primary)'; });
+    toggle.addEventListener('mouseout', () => { toggle.style.borderColor = ''; toggle.style.color = ''; });
     toggle.addEventListener('click', (e) => { e.preventDefault(); this.toggle(); });
-    nav.appendChild(toggle);
+    navLinks.appendChild(toggle);
   }
 };
 

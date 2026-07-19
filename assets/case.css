@@ -1,4 +1,9 @@
 /* ===== CASE PAGE SPECIFIC STYLES ===== */
+:root {
+  --primary: #2563EB;
+  --accent: #38BDF8;
+  --success: #10B981;
+}
 
 .casehero .snapshot {
   display: flex;
@@ -32,7 +37,7 @@
 }
 
 .casehero .eyebrow {
-  color: var(--brass);
+  color: var(--primary);
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 0.72rem;
@@ -41,7 +46,7 @@
 }
 
 .casehero h1 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(2rem, 4.5vw, 3.2rem);
   font-weight: 800;
   line-height: 1.08;
@@ -50,7 +55,7 @@
 }
 
 .casehero .meta {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-size: 0.9rem;
   margin-bottom: 8px;
 }
@@ -61,16 +66,15 @@
 
 .casehero .disclaimer {
   background: var(--surface2);
-  border-left: 3px solid var(--brass-dark);
+  border-left: 3px solid var(--primary);
   padding: 14px 18px;
   border-radius: var(--radius);
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   margin-top: 24px;
   line-height: 1.5;
 }
 
-/* ===== SECTION STYLES ===== */
 .case-section {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -82,17 +86,17 @@
 }
 
 .case-section h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(1.3rem, 2.5vw, 1.8rem);
   font-weight: 700;
   line-height: 1.15;
   margin: 0 0 20px;
-  color: var(--brass);
+  color: var(--primary);
   letter-spacing: -0.01em;
 }
 
 .case-section h3 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
   margin: 24px 0 12px;
@@ -102,7 +106,7 @@
 
 .case-section p {
   font-size: 0.95rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 16px;
 }
@@ -111,7 +115,6 @@
   margin-bottom: 0;
 }
 
-/* ===== LISTS ===== */
 .case-section ul,
 .case-section ol {
   margin: 0 0 20px;
@@ -120,7 +123,7 @@
 
 .case-section li {
   font-size: 0.95rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 4px;
 }
@@ -133,7 +136,6 @@
   color: var(--text);
 }
 
-/* ===== TABLES ===== */
 .case-section .table-wrap {
   overflow-x: auto;
   margin-bottom: 24px;
@@ -150,7 +152,7 @@
   text-align: left;
   padding: 10px 14px;
   border: 1px solid var(--line);
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 .case-section th {
@@ -166,17 +168,8 @@
   background: var(--surface);
 }
 
-.case-section tr:last-child td:first-child {
-  border-radius: 0 0 0 var(--radius);
-}
-
-.case-section tr:last-child td:last-child {
-  border-radius: 0 0 var(--radius) 0;
-}
-
-/* ===== BLOCKQUOTE ===== */
 .case-section blockquote {
-  border-left: 3px solid var(--brass-dark);
+  border-left: 3px solid var(--primary);
   padding: 12px 18px;
   margin: 0 0 20px;
   background: var(--surface2);
@@ -186,10 +179,9 @@
 
 .case-section blockquote p {
   margin-bottom: 0;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
-/* ===== HR ===== */
 .case-section hr {
   border: none;
   height: 1px;
@@ -197,7 +189,32 @@
   margin: 30px 0;
 }
 
-/* ===== BACK BUTTON ===== */
+.case-section .metric {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+  background: var(--surface2);
+  text-align: center;
+}
+
+.case-section .metric strong {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  color: var(--success);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+
+.case-section .metric {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 .back-wrap {
   padding: 40px 0 60px;
 }
@@ -208,47 +225,23 @@
   gap: 6px;
 }
 
-/* ===== RESPONSIVE ===== */
-.casehero .eyebrow {
-  margin-bottom: 10px;
-}
-
-.casehero h1 {
-  margin: 0 0 16px;
-}
-
 @media (max-width: 700px) {
   .case-layout {
     padding: 0 20px;
   }
-
   .casehero {
     padding-top: 50px;
     padding-bottom: 30px;
   }
-
   .case-section {
     padding-top: 30px;
     padding-bottom: 20px;
   }
-
   .case-section table {
     font-size: 0.8rem;
   }
-
   .case-section th,
   .case-section td {
     padding: 8px 10px;
-  }
-}
-
-@media (max-width: 500px) {
-  .case-section table {
-    font-size: 0.75rem;
-  }
-
-  .case-section th,
-  .case-section td {
-    padding: 6px 8px;
   }
 }
