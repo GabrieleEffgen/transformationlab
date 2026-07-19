@@ -62,7 +62,7 @@ const i18n = {
 
     // PORTFOLIO
     'portfolio-label': { en: 'Transformation Portfolio', pt: 'Portfólio de Transformação' },
-    'portfolio-title': { en: '21 Business Cases', pt: '21 Business Cases' },
+    'portfolio-title': { en: '22 Business Cases', pt: '22 Business Cases' },
     'portfolio-desc': { en: 'Real-world transformation cases across operational excellence, digital, strategy and leadership.', pt: 'Casos reais de transformação em excelência operacional, digital, estratégia e liderança.' },
 
     // CASE CARDS
@@ -129,6 +129,9 @@ const i18n = {
     'case21-tag': { en: 'Case 21 · Digital Product', pt: 'Case 21 · Produto Digital' },
     'case21-title': { en: 'Digital Product Strategy', pt: 'Estratégia de Produto Digital' },
     'case21-desc': { en: 'From OpEx to product · MVP launched', pt: 'Da Excelência Operacional ao Produto · MVP lançado' },
+    'case22-tag': { en: 'Case 22 · Digital Transformation', pt: 'Case 22 · Transformação Digital' },
+    'case22-title': { en: 'End-to-End Digital Factory Operating System', pt: 'Sistema Operacional Digital de Fábrica End-to-End' },
+    'case22-desc': { en: 'Single platform · Real-time end-to-end visibility', pt: 'Plataforma única · Visibilidade end-to-end em tempo real' },
 
     // FRAMEWORKS
     'fw-label': { en: 'Framework Library', pt: 'Biblioteca de Frameworks' },
@@ -202,6 +205,7 @@ const i18n = {
     'case19-lead': { en: 'An executive business case structured around diagnosis, transformation strategy, implementation, governance, and value realization.', pt: 'Um business case executivo estruturado em torno de diagnóstico, estratégia de transformação, implementação, governança e realização de valor.' },
     'case20-lead': { en: 'An executive business case structured around diagnosis, transformation strategy, implementation, governance, and value realization.', pt: 'Um business case executivo estruturado em torno de diagnóstico, estratégia de transformação, implementação, governança e realização de valor.' },
     'case21-lead': { en: 'From Operational Excellence to Digital Product — an executive case on applying transformation principles to product strategy.', pt: 'Da Excelência Operacional ao Produto Digital — um case executivo sobre aplicar princípios de transformação à estratégia de produto.' },
+    'case22-lead': { en: 'An executive business case structured around diagnosis, transformation strategy, implementation, governance, and value realization.', pt: 'Um business case executivo estruturado em torno de diagnóstico, estratégia de transformação, implementação, governança e realização de valor.' },
 
     // CASE DISCLAIMERS
     'case01-disc': { en: 'Disclaimer: This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.', pt: 'Aviso: Este case é fictício ou anonimizado e tem como objetivo demonstrar resolução estruturada de problemas executivos.' },
@@ -225,6 +229,7 @@ const i18n = {
     'case19-disc': { en: 'Disclaimer: This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.', pt: 'Aviso: Este case é fictício ou anonimizado e tem como objetivo demonstrar resolução estruturada de problemas executivos.' },
     'case20-disc': { en: 'Disclaimer: This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.', pt: 'Aviso: Este case é fictício ou anonimizado e tem como objetivo demonstrar resolução estruturada de problemas executivos.' },
     'case21-disc': { en: 'Disclaimer: This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.', pt: 'Aviso: Este case é fictício ou anonimizado e tem como objetivo demonstrar resolução estruturada de problemas executivos.' },
+    'case22-disc': { en: 'Disclaimer: This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.', pt: 'Aviso: Este case é fictício ou anonimizado e tem como objetivo demonstrar resolução estruturada de problemas executivos.' },
 
     // FOOTER
     'footer-text': { en: '© 2026 Gabriele Miranda — THE TRANSFORMATION LAB', pt: '© 2026 Gabriele Miranda — THE TRANSFORMATION LAB' },

@@ -248,7 +248,7 @@ function Convert-MarkdownToHtml {
 <nav>
   <div class="nav">
     <a class="brand" href="../../index.html">THE <span>TRANSFORMATION LAB</span></a>
-    <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">&#9776;</button>
     <div class="nav-links" id="nav-links">
       <a href="../../index.html" data-i18n="nav-home">HOME</a>
       <a href="../../capabilities.html" data-i18n="nav-capabilities">CAPABILITIES</a>

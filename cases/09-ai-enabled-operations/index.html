@@ -23,6 +23,9 @@
     </div>
   </div>
 </nav>
+<script>
+document.getElementById('mobile-toggle').addEventListener('click',function(){document.getElementById('nav-links').classList.toggle('open');});
+</script>
 <div class="case-layout">
 <header class="casehero">
 <div class="eyebrow" data-i18n="case09-tag">Case 09 &#183; AI in Operations  </div>
@@ -204,7 +207,7 @@
 </section>
 
 <div class="back-wrap">
-<a class="btn" href="../../index.html">&larr; Back to all cases</a>
+<a class="btn" href="../../index.html" data-i18n="back-btn">&larr; Back to all cases</a>
 </div>
 </div>
 <footer class="footer">
@@ -214,11 +217,6 @@
 <a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">linkedin.com/in/gabrielemiranda</a>
 </div>
 </footer>
-
-<script>
-document.getElementById('mobile-toggle').addEventListener('click', function() {
-  document.getElementById('nav-links').classList.toggle('open');
-});
-</script>
+<script src="../../assets/i18n.js"></script>
 </body>
 </html>
