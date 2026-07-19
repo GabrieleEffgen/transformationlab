@@ -476,6 +476,46 @@ h2 {
   line-height: 1.5;
 }
 
+/* ===== LOGO GRID ===== */
+.logos-section {
+  text-align: center;
+}
+
+.logo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px 48px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.logo-item {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  transition: opacity 0.3s, color 0.3s;
+  white-space: nowrap;
+}
+
+.logo-item:hover {
+  opacity: 0.9;
+  color: var(--brass);
+}
+
+@media (max-width: 600px) {
+  .logo-grid {
+    gap: 20px 32px;
+  }
+  .logo-item {
+    font-size: 1rem;
+  }
+}
+
 /* ===== FOOTER ===== */
 .footer {
   max-width: var(--max);

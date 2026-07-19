@@ -40,6 +40,9 @@ const i18n = {
     'method-eyebrow': { en: 'Executive Method', pt: 'Método Executivo' },
     'method-title': { en: 'Discover. Diagnose. Prioritize.<br>Design. Deliver. Sustain.', pt: 'Descobrir. Diagnosticar. Priorizar.<br>Desenhar. Entregar. Sustentar.' },
 
+    'logos-eyebrow': { en: 'Experience Across', pt: 'Experiência em' },
+    'logos-title': { en: 'Trusted by Industry Leaders', pt: 'Parceiros da Indústria' },
+
     'portfolio-eyebrow': { en: 'Portfolio', pt: 'Portfólio' },
     'portfolio-title': { en: '21 Business Cases', pt: '21 Business Cases' },
 
