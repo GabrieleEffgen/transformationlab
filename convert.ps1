@@ -250,13 +250,13 @@ function Convert-MarkdownToHtml {
     <a class="brand" href="../../index.html">THE <span>TRANSFORMATION LAB</span></a>
     <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">☰</button>
     <div class="nav-links" id="nav-links">
-      <a href="../../index.html">HOME</a>
-      <a href="../../capabilities.html">CAPABILITIES</a>
-      <a href="../../case-studies.html">CASE STUDIES</a>
-      <a href="../../frameworks.html">FRAMEWORKS</a>
-      <a href="../../insights.html">INSIGHTS</a>
-      <a href="../../about.html">ABOUT</a>
-      <a href="../../contact.html" class="nav-cta">CONTACT</a>
+      <a href="../../index.html" data-i18n="nav-home">HOME</a>
+      <a href="../../capabilities.html" data-i18n="nav-capabilities">CAPABILITIES</a>
+      <a href="../../case-studies.html" data-i18n="nav-cases">CASE STUDIES</a>
+      <a href="../../frameworks.html" data-i18n="nav-frameworks">FRAMEWORKS</a>
+      <a href="../../insights.html" data-i18n="nav-insights">INSIGHTS</a>
+      <a href="../../about.html" data-i18n="nav-about">ABOUT</a>
+      <a href="../../contact.html" class="nav-cta" data-i18n="nav-contact">CONTACT</a>
     </div>
   </div>
 </nav>
@@ -265,26 +265,25 @@ document.getElementById('mobile-toggle').addEventListener('click',function(){doc
 </script>
 <div class="case-layout">
 <header class="casehero">
-<div class="eyebrow">Case $caseNumber &#183; $capability</div>
-<h1>$title</h1>
-<p class="lead">An executive business case structured around diagnosis, transformation strategy, implementation, governance, and value realization.</p>
+<div class="eyebrow" data-i18n="case${caseNumber}-tag">Case $caseNumber &#183; $capability</div>
+<h1 data-i18n="case${caseNumber}-title">$title</h1>
+<p class="lead" data-i18n="case${caseNumber}-lead">An executive business case structured around diagnosis, transformation strategy, implementation, governance, and value realization.</p>
 $heroMetrics
-<div class="disclaimer"><strong>Disclaimer:</strong> $disclaimer</div>
+<div class="disclaimer" data-i18n="case${caseNumber}-disc"><strong>Disclaimer:</strong> $disclaimer</div>
 </header>
 $sectionHtml
 <div class="back-wrap">
-<a class="btn" href="../../index.html">&larr; Back to all cases</a>
+<a class="btn" href="../../index.html" data-i18n="back-btn">&larr; Back to all cases</a>
 </div>
 </div>
 <footer class="footer">
-<div class="footer-left">
-<span>&copy; 2026 Gabriele Miranda</span>
-</div>
+<div class="footer-left" data-i18n="footer-text">&copy; 2026 Gabriele Miranda &#8212; THE TRANSFORMATION LAB</div>
 <div class="footer-right">
 <a href="mailto:gabrieleufruralrj@gmail.com">gabrieleufruralrj@gmail.com</a>
 <a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">linkedin.com/in/gabrielemiranda</a>
 </div>
 </footer>
+<script src="../../assets/i18n.js"></script>
 </body>
 </html>
 "@
