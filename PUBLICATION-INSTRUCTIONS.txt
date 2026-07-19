@@ -1,0 +1,19 @@
+ONLINE PUBLICATION
+
+1. Extract this ZIP.
+2. Open the extracted transformation-lab folder.
+3. Open https://github.com/GabrieleEffgen/me
+4. Click Add file > Upload files.
+5. Drag everything INSIDE the transformation-lab folder into GitHub.
+6. Confirm index.html, about.html, assets/style.css and all 20 case folders appear.
+7. Commit message: Deploy complete Transformation Lab portfolio
+8. Commit directly to main.
+
+ACTIVATE PAGES
+1. Repository > Settings > Pages.
+2. Source: Deploy from a branch.
+3. Branch: main.
+4. Folder: /(root).
+5. Save.
+6. Wait up to 10 minutes.
+7. Open https://gabrieleeffgen.github.io/me/
