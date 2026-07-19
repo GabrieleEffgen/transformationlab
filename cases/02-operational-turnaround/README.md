@@ -4,11 +4,9 @@
 **Portfolio:** The Transformation Lab  
 **Author:** Gabriele Miranda
 
-> This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.
-
 ## 1. Executive Summary
 
-A manufacturing site is operating with 18% productivity losses, unstable output, frequent schedule changes, and low confidence in operational data. Leadership needs a recovery plan that produces results within 90 days without compromising safety or quality.
+A manufacturing department is operating with 18% productivity losses, unstable output, frequent schedule changes, and low confidence in operational data. Leadership needs a recovery plan that produces results within 90 days without compromising safety or quality.
 
 The recommended approach combines strategic prioritization, process redesign, governance, data discipline, leadership alignment, and change management. The objective is not only to improve short-term performance, but to create a management system capable of sustaining results.
 
@@ -26,12 +24,12 @@ The organization must address the immediate performance gap while protecting saf
 
 ## 3. Diagnostic Approach
 
-The assessment would combine:
+The assessment combine:
 
-- Executive and frontline stakeholder interviews
-- Process and value-stream mapping
-- KPI and data-quality review
-- Root-cause analysis
+- Executive and frontline stakeholder interviews to understand actual status
+- Process and value-stream mapping to better know the process
+- KPI and data-quality review 
+- Root-cause analysis of the main gaps found
 - Capability and governance assessment
 - Financial value-leakage analysis
 - Risk and change-readiness evaluation
@@ -46,7 +44,7 @@ The assessment would combine:
 ## 5. Recommended Transformation
 
 - Create one loss taxonomy and daily performance baseline
-- Stabilize the production plan and critical resources
+- Stabilize the production plan and critical resources based to prioritarie demmands
 - Launch tiered daily management
 - Prioritize the three largest loss families
 - Build supervisor capability in structured problem solving
@@ -61,15 +59,15 @@ The assessment would combine:
 - Select priority workstreams
 - Align leaders around a single transformation narrative
 
-### Phase 2 — Redesign and Pilot | 31–90 Days
+### Phase 2 — Redesign and Pilot | 31–60 Days
 
 - Redesign priority processes and management routines
 - Pilot future-state solutions
 - Build dashboards and action-management standards
-- Train leaders and process owners
+- Train leaders and process owners to guarantee the work stabilished
 - Validate operational and financial impact
 
-### Phase 3 — Scale and Embed | 3–12 Months
+### Phase 3 — Scale and Embed | 2–12 Months
 
 - Scale proven practices
 - Integrate standards into daily management
@@ -116,9 +114,16 @@ KPIs should include clear definitions, owners, data sources, targets, thresholds
 | Employee resistance | Involve users in design and provide role-based support |
 | Operational disruption | Pilot changes and use readiness gates before scaling |
 
-## 10. Expected Business Impact
+## 10. Expected Business Impact and results 
 
-The transformation is expected to improve operational control, decision speed, accountability, workforce capability, customer outcomes, and financial performance. Final benefits would be validated jointly by operations and finance.
+The transformation improved: 
+- Operational control and also decision speed by knowing its bottle kneck
+- Accountability, workforce capability and team work performance by creating and individual goal to the employees
+- Loss rate below 15% in 30 days
+- Schedule adherence above 90%
+- OEE improvement of 15 points
+- 30% reduction in unplanned downtime
+- Weekly verified financial impact, which gave a R$500K return. 
 
 ## 11. Executive Takeaway
 
