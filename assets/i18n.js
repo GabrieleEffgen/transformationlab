@@ -11,7 +11,7 @@ const i18n = {
     'hero-eyebrow': { en: 'Executive Portfolio · Business Transformation', pt: 'Portfólio Executivo · Business Transformation' },
     'hero-title': { en: 'Gabriele <span class="gold">Miranda</span>', pt: 'Gabriele <span class="gold">Miranda</span>' },
     'hero-subtitle': { en: 'Business Transformation &amp; Operational Excellence Leader', pt: 'Líder em Business Transformation &amp; Excelência Operacional' },
-    'hero-desc': { en: 'This portfolio brings together the <strong>20 business cases</strong> most representative of my career in Business Transformation and Operational Excellence — each connecting strategy, processes, people, and performance management to deliver measurable outcomes in multinational industries.', pt: 'Este portfólio reúne os <strong>20 business cases</strong> mais representativos da minha carreira em Business Transformation e Operational Excellence — cada um conectando estratégia, processos, pessoas e gestão da performance para gerar resultados mensuráveis em indústrias multinacionais.' },
+    'hero-desc': { en: 'This portfolio brings together the <strong>21 business cases</strong> most representative of my career in Business Transformation and Operational Excellence — each connecting strategy, processes, people, and performance management to deliver measurable outcomes in multinational industries.', pt: 'Este portfólio reúne os <strong>21 business cases</strong> mais representativos da minha carreira em Business Transformation e Operational Excellence — cada um conectando estratégia, processos, pessoas e gestão da performance para gerar resultados mensuráveis em indústrias multinacionais.' },
     'hero-btn-portfolio': { en: 'Explore portfolio →', pt: 'Explorar portfólio →' },
     'hero-btn-about': { en: 'More about me →', pt: 'Mais sobre mim →' },
 
@@ -41,7 +41,7 @@ const i18n = {
     'method-title': { en: 'Discover. Diagnose. Prioritize.<br>Design. Deliver. Sustain.', pt: 'Descobrir. Diagnosticar. Priorizar.<br>Desenhar. Entregar. Sustentar.' },
 
     'portfolio-eyebrow': { en: 'Portfolio', pt: 'Portfólio' },
-    'portfolio-title': { en: '20 Business Cases', pt: '20 Business Cases' },
+    'portfolio-title': { en: '21 Business Cases', pt: '21 Business Cases' },
 
     'case01-tag': { en: 'Case 01 · Operational Excellence', pt: 'Case 01 · Excelência Operacional' },
     'case01-title': { en: 'Product Availability Transformation', pt: 'Transformação de Disponibilidade de Produto' },
@@ -103,6 +103,10 @@ const i18n = {
     'case20-tag': { en: 'Case 20 · Enterprise Strategy', pt: 'Case 20 · Estratégia Empresarial' },
     'case20-title': { en: 'Five-Year Transformation Roadmap', pt: 'Roadmap de Transformação de 5 Anos' },
     'case20-desc': { en: 'Sequenced agenda · Capability-led growth', pt: 'Agenda sequenciada · Crescimento liderado por capacidades' },
+
+    'case21-tag': { en: 'Case 21 · Digital Product', pt: 'Case 21 · Produto Digital' },
+    'case21-title': { en: 'Digital Product Strategy', pt: 'Estratégia de Produto Digital' },
+    'case21-desc': { en: 'From OpEx to product · MVP launched', pt: 'Da Excelência Operacional ao Produto · MVP lançado' },
 
     'footer-text': { en: '© 2026 Gabriele Miranda', pt: '© 2026 Gabriele Miranda' },
     'footer-email': { en: 'Email', pt: 'Email' },
