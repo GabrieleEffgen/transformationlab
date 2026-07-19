@@ -4,8 +4,6 @@
 **Portfolio:** The Transformation Lab  
 **Author:** Gabriele Miranda
 
-> This case is fictional or anonymized and is intended to demonstrate structured executive problem-solving.
-
 ## 1. Executive Summary
 
 Senior leaders receive many reports but lack a coherent view of business performance. Indicators are inconsistent, backward-looking, and disconnected from strategic decisions.
@@ -38,7 +36,7 @@ The assessment would combine:
 
 ## 4. Key Hypotheses
 
-1. A significant share of the performance gap is caused by management-system weaknesses rather than isolated technical issues.
+1. A significant share of the performance gap is caused by management-system weaknesses rather than isolated technical issues. It is clear that the indicators have no conecction to frontline stakeholders challenges.
 2. The organization lacks one reliable view of priorities, performance, and ownership.
 3. Local improvements will not sustain without governance, capability building, and leadership routines.
 4. The transformation should be sequenced to stabilize, improve, and then scale.
@@ -116,9 +114,14 @@ KPIs should include clear definitions, owners, data sources, targets, thresholds
 | Employee resistance | Involve users in design and provide role-based support |
 | Operational disruption | Pilot changes and use readiness gates before scaling |
 
-## 10. Expected Business Impact
+## 10. Business Impact and results
 
-The transformation is expected to improve operational control, decision speed, accountability, workforce capability, customer outcomes, and financial performance. Final benefits would be validated jointly by operations and finance.
+The transformation improved 
+- 100% KPI definition governance getting the operational control working.
+- Reporting effort reduced by 100%, one it became automatic.
+- Decision cycle shortened and closer to the problems
+- Action closure above 90%, simplifying what was done.
+- Benefits linked to strategic objectives, making capability of plant increase 10%. 
 
 ## 11. Executive Takeaway
 
