@@ -1,3 +1,4 @@
+// v3
 const i18n = {
   currentLang: localStorage.getItem('lang') || 'en',
 
@@ -1633,7 +1634,7 @@ const i18n = {
     'filter-opex': { en: 'Operational Excellence', pt: 'Excelência Operacional' },
     'filter-people': { en: 'People', pt: 'Pessoas' },
     'filter-product': { en: 'Product', pt: 'Produto' },
-    'footer-text': { en: 'Â© 2026 Gabriele Miranda — THE TRANSFORMATION LAB', pt: '© 2026 Gabriele Miranda — O LABORATÓRIO DE TRANSFORMAÇÃO' },
+    'footer-text': { en: '&copy; 2026 Gabriele Miranda &mdash; THE TRANSFORMATION LAB', pt: '&copy; 2026 Gabriele Miranda &mdash; O LABORATÓRIO DE TRANSFORMAÇÃO' },
     'fw-desc': { en: 'Reusable frameworks I apply across transformations to deliver consistent, measurable results.', pt: 'Estruturas reutilizáveis ​​que aplico em transformações para fornecer resultados consistentes e mensuráveis.' },
     'fw-label': { en: 'Framework Library', pt: 'Biblioteca de Estrutura' },
     'fw-page-desc': { en: 'Proven methodologies and tools I use to diagnose, design, execute and sustain business transformations.', pt: 'Metodologias e ferramentas comprovadas que utilizo para diagnosticar, projetar, executar e sustentar transformações de negócios.' },
