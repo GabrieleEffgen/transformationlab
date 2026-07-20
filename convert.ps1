@@ -230,6 +230,20 @@ function Convert-MarkdownToHtml {
   <div class="metric"><strong>90-day recovery</strong>Business value</div>
 </div>
 '@
+  } elseif ($caseNumber -eq "24") {
+    $heroMetrics = @'
+<div class="snapshot">
+  <div class="metric"><strong>2 leaders</strong>Expanded roles</div>
+  <div class="metric"><strong>Higher autonomy</strong>Decision ownership</div>
+</div>
+'@
+  } elseif ($caseNumber -eq "25") {
+    $heroMetrics = @'
+<div class="snapshot">
+  <div class="metric"><strong>Shared</strong>Priorities across functions</div>
+  <div class="metric"><strong>Higher</strong>Adoption of new routines</div>
+</div>
+'@
   }
 
   $html = @"
@@ -280,7 +294,7 @@ $sectionHtml
 <a href="https://linkedin.com/in/gabrielemiranda" target="_blank" rel="noopener">linkedin.com/in/gabrielemiranda</a>
 </div>
 </footer>
-<script src="../../assets/i18n.js"></script>
+<script src="../../assets/i18n.js?v=2"></script>
 </body>
 </html>
 "@

@@ -9,7 +9,7 @@
 
 After leading operational excellence initiatives in multinational manufacturing environments, I partnered with a software developer to design and launch a mobile gaming application. The project demonstrated how Continuous Improvement principles can be successfully applied to Digital Product Management.
 
-**Status:** Product launched â€” Early Market Validation
+**Status:** Product launched — Early Market Validation
 
 ## 2. Business Challenge
 
@@ -45,21 +45,21 @@ The project was structured around understanding the user problem before defining
 
 ## 6. Transformation Roadmap
 
-### Phase 1 â€” Discovery and Definition | 0â€“30 Days
+### Phase 1 — Discovery and Definition | 0–30 Days
 
 - Define product vision and user problem
 - Conduct user research
 - Prioritize MVP features
 - Establish product roadmap
 
-### Phase 2 â€” Build and Launch | 31â€“90 Days
+### Phase 2 — Build and Launch | 31–90 Days
 
 - Develop MVP
 - Parallel testing and refinement
 - Launch application
 - Collect early market feedback
 
-### Phase 3 â€” Scale and Iterate | 3â€“12 Months
+### Phase 3 — Scale and Iterate | 3–12 Months
 
 - Analyze user data and behavior
 - Prioritize next features by value
